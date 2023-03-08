@@ -1,0 +1,3802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>台61交流道</name>
+    <Style id="icon-1739-BDBDBD-normal">
+      <IconStyle>
+        <color>ffbdbdbd</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1739-BDBDBD-highlight">
+      <IconStyle>
+        <color>ffbdbdbd</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1739-BDBDBD">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-BDBDBD-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-BDBDBD-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1884-006064-normal">
+      <IconStyle>
+        <color>ff646000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1884-006064-highlight">
+      <IconStyle>
+        <color>ff646000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1884-006064">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1884-006064-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1884-006064-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1884-3949AB-normal">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1884-3949AB-highlight">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1884-3949AB">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1884-3949AB-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1884-3949AB-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1884-F57C00-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1884-F57C00-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1884-F57C00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1884-F57C00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1884-F57C00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>八里一交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 2<br>編碼樁號: P0610002<br>南（東）向出口預告地名: <br>北（西）向出口預告地名: 八里<br>縣市: 新北市<br>鄉鎮市區: 八里區<br>備註: (公路總局)<br>TWD97-X: 290,751.2<br>TWD97-Y: 2,783,567.2<br>WGS84-X: 121.40424<br>WGS84-Y: 25.160058<br>工程處: 第一區養護工程處<br>工務段: 中和工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/25.160058+121.40424]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>2.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610002</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value/>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>八里</value>
+        </Data>
+        <Data name="縣市">
+          <value>新北市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>八里區</value>
+        </Data>
+        <Data name="備註">
+          <value>(公路總局)</value>
+        </Data>
+        <Data name="TWD97-X">
+          <value>290751.2</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2783567.2</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>121.40424</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>25.160058</value>
+        </Data>
+        <Data name="工程處">
+          <value>第一區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>中和工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/25.160058+121.40424</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.40424,25.160058,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>八里二交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 4<br>編碼樁號: P0610004<br>南（東）向出口預告地名: 台64線,八里;台64線,八里<br>北（西）向出口預告地名: <br>縣市: 新北市<br>鄉鎮市區: 林口區<br>備註: (公路總局)<br>TWD97-X: 284,666.6<br>TWD97-Y: 2,779,837.7<br>WGS84-X: 121.3437898<br>WGS84-Y: 25.1265404<br>工程處: 第一區養護工程處<br>工務段: 中和工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/25.1265404+121.3437898]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>4.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610004</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>台64線,八里;台64線,八里</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value/>
+        </Data>
+        <Data name="縣市">
+          <value>新北市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>林口區</value>
+        </Data>
+        <Data name="備註">
+          <value>(公路總局)</value>
+        </Data>
+        <Data name="TWD97-X">
+          <value>284666.6</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2779837.7</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>121.3437898</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>25.1265404</value>
+        </Data>
+        <Data name="工程處">
+          <value>第一區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>中和工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/25.1265404+121.3437898</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.3437898,25.1265404,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>八里三交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 5<br>編碼樁號: P0610005<br>南（東）向出口預告地名: 台15線,八里<br>北（西）向出口預告地名: 八里;臺北港<br>縣市: 新北市<br>鄉鎮市區: 八里區<br>備註: <br>TWD97-X: 288,641.8<br>TWD97-Y: 2,781,834.1<br>WGS84-X: 121.383267<br>WGS84-Y: 25.1444677<br>工程處: 第一區養護工程處<br>工務段: 中和工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/25.1444677+121.383267]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>5.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610005</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>台15線,八里</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>八里;臺北港</value>
+        </Data>
+        <Data name="縣市">
+          <value>新北市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>八里區</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>288641.8</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2781834.1</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>121.383267</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>25.1444677</value>
+        </Data>
+        <Data name="工程處">
+          <value>第一區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>中和工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/25.1444677+121.383267</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.383267,25.1444677,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>八里交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 12<br>編碼樁號: P0610012<br>南（東）向出口預告地名: <br>北（西）向出口預告地名: 台15線,八里;台64線,快速公路<br>縣市: 新北市<br>鄉鎮市區: 林口區<br>備註: <br>TWD97-X: 286,379.1<br>TWD97-Y: 2,780,636.8<br>WGS84-X: 121.3607932<br>WGS84-Y: 25.1337149<br>工程處: 第一區養護工程處<br>工務段: 中和工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/25.1337149+121.3607932]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>12.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610012</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value/>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>台15線,八里;台64線,快速公路</value>
+        </Data>
+        <Data name="縣市">
+          <value>新北市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>林口區</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>286379.1</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2780636.8</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>121.3607932</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>25.1337149</value>
+        </Data>
+        <Data name="工程處">
+          <value>第一區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>中和工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/25.1337149+121.3607932</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.3607932,25.1337149,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>蘆竹交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 19<br>編碼樁號: P0610019<br>南（東）向出口預告地名: 台15線,桃園機場;台15線,蘆竹<br>北（西）向出口預告地名: 台15線,蘆竹<br>縣市: 桃園市<br>鄉鎮市區: 蘆竹區<br>備註: <br>TWD97-X: 278,337.5<br>TWD97-Y: 2,778,742.4<br>WGS84-X: 121.281002<br>WGS84-Y: 25.116784<br>工程處: 第一區養護工程處<br>工務段: 中壢工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/25.116784+121.281002]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>19.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610019</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>台15線,桃園機場;台15線,蘆竹</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>台15線,蘆竹</value>
+        </Data>
+        <Data name="縣市">
+          <value>桃園市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>蘆竹區</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>278337.5</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2778742.4</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>121.281002</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>25.116784</value>
+        </Data>
+        <Data name="工程處">
+          <value>第一區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>中壢工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/25.116784+121.281002</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.281002,25.116784,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>竹圍交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 22<br>編碼樁號: P0610022<br>南（東）向出口預告地名: 竹圍<br>北（西）向出口預告地名: <br>縣市: 桃園市<br>鄉鎮市區: 大園區<br>備註: <br>TWD97-X: 274,222.8<br>TWD97-Y: 2,778,184.2<br>WGS84-X: 121.2401894<br>WGS84-Y: 25.1118166<br>工程處: 第一區養護工程處<br>工務段: 中壢工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/25.1118166+121.2401894]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>22.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610022</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>竹圍</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value/>
+        </Data>
+        <Data name="縣市">
+          <value>桃園市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>大園區</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>274222.8</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2778184.2</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>121.2401894</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>25.1118166</value>
+        </Data>
+        <Data name="工程處">
+          <value>第一區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>中壢工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/25.1118166+121.2401894</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.2401894,25.1118166,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>沙崙交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 24<br>編碼樁號: P0610024<br>南（東）向出口預告地名: <br>北（西）向出口預告地名: 台15甲,沙崙;台15甲,竹圍<br>縣市: 桃園市<br>鄉鎮市區: 大園區<br>備註: <br>TWD97-X: 271,434.4<br>TWD97-Y: 2,777,256.5<br>WGS84-X: 121.2125259<br>WGS84-Y: 25.103483<br>工程處: 第一區養護工程處<br>工務段: 中壢工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/25.103483+121.2125259]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>24.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610024</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value/>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>台15甲,沙崙;台15甲,竹圍</value>
+        </Data>
+        <Data name="縣市">
+          <value>桃園市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>大園區</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>271434.4</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2777256.5</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>121.2125259</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>25.103483</value>
+        </Data>
+        <Data name="工程處">
+          <value>第一區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>中壢工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/25.103483+121.2125259</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.2125259,25.103483,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>大園交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 29<br>編碼樁號: P0610029<br>南（東）向出口預告地名: 桃園機場;大園<br>北（西）向出口預告地名: 大園;桃園機場<br>縣市: 桃園市<br>鄉鎮市區: 大園區<br>備註: <br>TWD97-X: 270,170.7<br>TWD97-Y: 2,776,343.8<br>WGS84-X: 121.1999832<br>WGS84-Y: 25.0952605<br>工程處: 第一區養護工程處<br>工務段: 中壢工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/25.0952605+121.1999832]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>29.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610029</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>桃園機場;大園</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>大園;桃園機場</value>
+        </Data>
+        <Data name="縣市">
+          <value>桃園市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>大園區</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>270170.7</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2776343.8</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>121.1999832</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>25.0952605</value>
+        </Data>
+        <Data name="工程處">
+          <value>第一區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>中壢工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/25.0952605+121.1999832</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.1999832,25.0952605,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>草漯交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 33<br>編碼樁號: P0610033<br>南（東）向出口預告地名: 草漯<br>北（西）向出口預告地名: 草漯<br>縣市: 桃園市<br>鄉鎮市區: 大園區<br>備註: <br>TWD97-X: 265,790.7<br>TWD97-Y: 2,774,175.8<br>WGS84-X: 121.1565326<br>WGS84-Y: 25.0757398<br>工程處: 第一區養護工程處<br>工務段: 中壢工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/25.0757398+121.1565326]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>33.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610033</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>草漯</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>草漯</value>
+        </Data>
+        <Data name="縣市">
+          <value>桃園市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>大園區</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>265790.7</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2774175.8</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>121.1565326</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>25.0757398</value>
+        </Data>
+        <Data name="工程處">
+          <value>第一區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>中壢工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/25.0757398+121.1565326</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.1565326,25.0757398,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>桃科交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 38<br>編碼樁號: P0610038<br>南（東）向出口預告地名: 桃園科技工業園區<br>北（西）向出口預告地名: <br>縣市: 桃園市<br>鄉鎮市區: 觀音區<br>備註: <br>TWD97-X: 260,436.5<br>TWD97-Y: 2,772,306.4<br>WGS84-X: 121.1034428<br>WGS84-Y: 25.0589088<br>工程處: 第一區養護工程處<br>工務段: 中壢工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/25.0589088+121.1034428]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>38.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610038</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>桃園科技工業園區</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value/>
+        </Data>
+        <Data name="縣市">
+          <value>桃園市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>觀音區</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>260436.5</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2772306.4</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>121.1034428</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>25.0589088</value>
+        </Data>
+        <Data name="工程處">
+          <value>第一區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>中壢工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/25.0589088+121.1034428</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.1034428,25.0589088,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>觀音交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 42<br>編碼樁號: P0610042<br>南（東）向出口預告地名: 台66線,觀音<br>北（西）向出口預告地名: 台66線,觀音<br>縣市: 桃園市<br>鄉鎮市區: 觀音區<br>備註: <br>TWD97-X: 257,133.5<br>TWD97-Y: 2,770,167.8<br>WGS84-X: 121.0706936<br>WGS84-Y: 25.0396203<br>工程處: 第一區養護工程處<br>工務段: 中壢工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/25.0396203+121.0706936]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>42.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610042</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>台66線,觀音</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>台66線,觀音</value>
+        </Data>
+        <Data name="縣市">
+          <value>桃園市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>觀音區</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>257133.5</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2770167.8</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>121.0706936</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>25.0396203</value>
+        </Data>
+        <Data name="工程處">
+          <value>第一區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>中壢工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/25.0396203+121.0706936</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.0706936,25.0396203,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>永安交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 47<br>編碼樁號: P0610047<br>南（東）向出口預告地名: 新屋<br>北（西）向出口預告地名: 新屋<br>縣市: 桃園市<br>鄉鎮市區: 新屋區<br>備註: <br>TWD97-X: 253,156.7<br>TWD97-Y: 2,766,710.6<br>WGS84-X: 121.031275<br>WGS84-Y: 25.0084204<br>工程處: 第一區養護工程處<br>工務段: 中壢工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/25.0084204+121.031275]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>47.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610047</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>新屋</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>新屋</value>
+        </Data>
+        <Data name="縣市">
+          <value>桃園市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>新屋區</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>253156.7</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2766710.6</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>121.031275</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>25.0084204</value>
+        </Data>
+        <Data name="工程處">
+          <value>第一區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>中壢工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/25.0084204+121.031275</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          121.031275,25.0084204,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>新豐一交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 63<br>編碼樁號: P0610063<br>南（東）向出口預告地名: 新豐<br>北（西）向出口預告地名: 新豐<br>縣市: 新竹縣<br>鄉鎮市區: 新豐鄉<br>備註: <br>TWD97-X: 247,449.7<br>TWD97-Y: 2,757,421.2<br>WGS84-X: 120.9747496<br>WGS84-Y: 24.9245534<br>工程處: 第一區養護工程處<br>工務段: 新竹工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/24.9245534+120.9747496]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>63.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610063</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>新豐</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>新豐</value>
+        </Data>
+        <Data name="縣市">
+          <value>新竹縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>新豐鄉</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>247449.7</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2757421.2</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.9747496</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.9245534</value>
+        </Data>
+        <Data name="工程處">
+          <value>第一區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>新竹工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.9245534+120.9747496</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.9747496,24.9245534,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>新豐二交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 66<br>編碼樁號: P0610066<br>南（東）向出口預告地名: <br>北（西）向出口預告地名: 台15<br>縣市: 新竹縣<br>鄉鎮市區: 新豐鄉<br>備註: <br>TWD97-X: 246,644.3<br>TWD97-Y: 2,754,393.9<br>WGS84-X: 120.9667827<br>WGS84-Y: 24.8972196<br>工程處: 第一區養護工程處<br>工務段: 新竹工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/24.8972196+120.9667827]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>66.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610066</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value/>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>台15</value>
+        </Data>
+        <Data name="縣市">
+          <value>新竹縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>新豐鄉</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>246644.3</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2754393.9</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.9667827</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.8972196</value>
+        </Data>
+        <Data name="工程處">
+          <value>第一區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>新竹工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.8972196+120.9667827</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.9667827,24.8972196,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>西濱交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 90<br>編碼樁號: P0610090<br>南（東）向出口預告地名: <br>北（西）向出口預告地名: 國道3號，新竹<br>縣市: 苗栗縣<br>鄉鎮市區: 竹南鎮<br>備註: <br>TWD97-X: 236,393.9<br>TWD97-Y: 2,732,465.9<br>WGS84-X: 120.8655321<br>WGS84-Y: 24.6991832<br>工程處: 第二區養護工程處<br>工務段: 苗栗工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/24.6991832+120.8655321]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>90.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610090</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value/>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>國道3號，新竹</value>
+        </Data>
+        <Data name="縣市">
+          <value>苗栗縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>竹南鎮</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>236393.9</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2732465.9</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.8655321</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.6991832</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>苗栗工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.6991832+120.8655321</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.8655321,24.6991832,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>溪洲交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 102<br>編碼樁號: P0610102<br>南（東）向出口預告地名: 後龍;水尾<br>北（西）向出口預告地名: 溪洲;後龍<br>縣市: 苗栗縣<br>鄉鎮市區: 後龍鎮<br>備註: <br>TWD97-X: 227,544.3<br>TWD97-Y: 2,725,116.9<br>WGS84-X: 120.778189<br>WGS84-Y: 24.6327271<br>工程處: 第二區養護工程處<br>工務段: 苗栗工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/24.6327271+120.778189]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>102.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610102</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>後龍;水尾</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>溪洲;後龍</value>
+        </Data>
+        <Data name="縣市">
+          <value>苗栗縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>後龍鎮</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>227544.3</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2725116.9</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.778189</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.6327271</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>苗栗工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.6327271+120.778189</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.778189,24.6327271,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>後龍交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 105<br>編碼樁號: P0610105<br>南（東）向出口預告地名: 國道3號,後龍交流道;台6線,苗栗<br>北（西）向出口預告地名: 台6線,苗栗;國道3號,後龍交流道<br>縣市: 苗栗縣<br>鄉鎮市區: 後龍鎮<br>備註: <br>TWD97-X: 226,604.7<br>TWD97-Y: 2,723,895.3<br>WGS84-X: 120.7689283<br>WGS84-Y: 24.6216839<br>工程處: 第二區養護工程處<br>工務段: 苗栗工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/24.6216839+120.7689283]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>105.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610105</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>國道3號,後龍交流道;台6線,苗栗</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>台6線,苗栗;國道3號,後龍交流道</value>
+        </Data>
+        <Data name="縣市">
+          <value>苗栗縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>後龍鎮</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>226604.7</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2723895.3</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.7689283</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.6216839</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>苗栗工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.6216839+120.7689283</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.7689283,24.6216839,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>赤土崎交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 109<br>編碼樁號: P0610109<br>南（東）向出口預告地名: 赤土崎<br>北（西）向出口預告地名: 赤土崎<br>縣市: 苗栗縣<br>鄉鎮市區: 後龍鎮<br>備註: <br>TWD97-X: 223,458.5<br>TWD97-Y: 2,720,953.1<br>WGS84-X: 120.7379097<br>WGS84-Y: 24.5950686<br>工程處: 第二區養護工程處<br>工務段: 苗栗工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/24.5950686+120.7379097]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>109.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610109</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>赤土崎</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>赤土崎</value>
+        </Data>
+        <Data name="縣市">
+          <value>苗栗縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>後龍鎮</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>223458.5</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2720953.1</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.7379097</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.5950686</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>苗栗工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.5950686+120.7379097</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.7379097,24.5950686,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>白沙屯交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 111<br>編碼樁號: P0610111<br>南（東）向出口預告地名: 台1線,西湖;台1線,白沙屯<br>北（西）向出口預告地名: 台1線,白沙屯;台1線,西湖<br>縣市: 苗栗縣<br>鄉鎮市區: 後龍鎮<br>備註: <br>TWD97-X: 221609<br>TWD97-Y: 2,718,638.4<br>WGS84-X: 120.7196928<br>WGS84-Y: 24.5741366<br>工程處: 第二區養護工程處<br>工務段: 苗栗工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/24.5741366+120.7196928]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>111.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610111</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>台1線,西湖;台1線,白沙屯</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>台1線,白沙屯;台1線,西湖</value>
+        </Data>
+        <Data name="縣市">
+          <value>苗栗縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>後龍鎮</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>221609.0</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2718638.4</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.7196928</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.5741366</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>苗栗工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.5741366+120.7196928</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.7196928,24.5741366,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>新埔交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 115<br>編碼樁號: P0610115<br>南（東）向出口預告地名: 台1線,新埔<br>北（西）向出口預告地名: 台1線,新埔<br>縣市: 苗栗縣<br>鄉鎮市區: 通霄鎮<br>備註: <br>TWD97-X: 219,942.6<br>TWD97-Y: 2,715,590.8<br>WGS84-X: 120.7033058<br>WGS84-Y: 24.5465888<br>工程處: 第二區養護工程處<br>工務段: 苗栗工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/24.5465888+120.7033058]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>115.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610115</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>台1線,新埔</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>台1線,新埔</value>
+        </Data>
+        <Data name="縣市">
+          <value>苗栗縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>通霄鎮</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>219942.6</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2715590.8</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.7033058</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.5465888</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>苗栗工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.5465888+120.7033058</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.7033058,24.5465888,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>通霄一交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 121<br>編碼樁號: P0610121<br>南（東）向出口預告地名: 台1線,通霄<br>北（西）向出口預告地名: 台1線,通霄<br>縣市: 苗栗縣<br>鄉鎮市區: 通霄鎮<br>備註: <br>TWD97-X: 218,226.7<br>TWD97-Y: 2,712,357.7<br>WGS84-X: 120.686441<br>WGS84-Y: 24.5173641<br>工程處: 第二區養護工程處<br>工務段: 苗栗工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/24.5173641+120.686441]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>121.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610121</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>台1線,通霄</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>台1線,通霄</value>
+        </Data>
+        <Data name="縣市">
+          <value>苗栗縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>通霄鎮</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>218226.7</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2712357.7</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.686441</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.5173641</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>苗栗工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.5173641+120.686441</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.686441,24.5173641,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>通霄二交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 122<br>編碼樁號: P0610122<br>南（東）向出口預告地名: 通霄<br>北（西）向出口預告地名: <br>縣市: 苗栗縣<br>鄉鎮市區: 通霄鎮<br>備註: <br>TWD97-X: 217379<br>TWD97-Y: 2,710,482.1<br>WGS84-X: 120.6781181<br>WGS84-Y: 24.5004113<br>工程處: 第二區養護工程處<br>工務段: 苗栗工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/24.5004113+120.6781181]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>122.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610122</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>通霄</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value/>
+        </Data>
+        <Data name="縣市">
+          <value>苗栗縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>通霄鎮</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>217379.0</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2710482.1</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.6781181</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.5004113</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>苗栗工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.5004113+120.6781181</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.6781181,24.5004113,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>苑裡交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 127<br>編碼樁號: P0610127<br>南（東）向出口預告地名: 苑裡;苑港漁港<br>北（西）向出口預告地名: <br>縣市: 苗栗縣<br>鄉鎮市區: 通霄鎮<br>備註: <br>TWD97-X: 215,896.7<br>TWD97-Y: 2,708,070.7<br>WGS84-X: 120.6635504<br>WGS84-Y: 24.4786078<br>工程處: 第二區養護工程處<br>工務段: 苗栗工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/24.4786078+120.6635504]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>127.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610127</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>苑裡;苑港漁港</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value/>
+        </Data>
+        <Data name="縣市">
+          <value>苗栗縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>通霄鎮</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>215896.7</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2708070.7</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.6635504</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.4786078</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>苗栗工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.4786078+120.6635504</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.6635504,24.4786078,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>房裡交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 130<br>編碼樁號: P0610130<br>南（東）向出口預告地名: 國道3號,苑裡交流道;苑裡<br>北（西）向出口預告地名: <br>縣市: 苗栗縣<br>鄉鎮市區: 苑裡鎮<br>備註: <br>TWD97-X: 212,882.3<br>TWD97-Y: 2,703,238.7<br>WGS84-X: 120.6339377<br>WGS84-Y: 24.4349109<br>工程處: 第二區養護工程處<br>工務段: 苗栗工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/24.4349109+120.6339377]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>130.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610130</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>國道3號,苑裡交流道;苑裡</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value/>
+        </Data>
+        <Data name="縣市">
+          <value>苗栗縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>苑裡鎮</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>212882.3</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2703238.7</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.6339377</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.4349109</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>苗栗工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.4349109+120.6339377</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.6339377,24.4349109,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>大甲交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 134<br>編碼樁號: P0610134<br>南（東）向出口預告地名: <br>北（西）向出口預告地名: 大甲;苑裡<br>縣市: 臺中市<br>鄉鎮市區: 大甲區<br>備註: <br>TWD97-X: 211,088.5<br>TWD97-Y: 2,700,786.6<br>WGS84-X: 120.6163138<br>WGS84-Y: 24.4127279<br>工程處: 第二區養護工程處<br>工務段: 臺中工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/24.4127279+120.6163138]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>134.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610134</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value/>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>大甲;苑裡</value>
+        </Data>
+        <Data name="縣市">
+          <value>臺中市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>大甲區</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>211088.5</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2700786.6</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.6163138</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.4127279</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>臺中工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.4127279+120.6163138</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.6163138,24.4127279,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>福住交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 136<br>編碼樁號: P0610136<br>南（東）向出口預告地名: 大甲<br>北（西）向出口預告地名: <br>縣市: 臺中市<br>鄉鎮市區: 大安區<br>備註: <br>TWD97-X: 210,174.4<br>TWD97-Y: 2,699,093.8<br>WGS84-X: 120.6073483<br>WGS84-Y: 24.3974204<br>工程處: 第二區養護工程處<br>工務段: 臺中工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/24.3974204+120.6073483]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>136.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610136</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>大甲</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value/>
+        </Data>
+        <Data name="縣市">
+          <value>臺中市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>大安區</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>210174.4</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2699093.8</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.6073483</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.3974204</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>臺中工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.3974204+120.6073483</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.6073483,24.3974204,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>大安一交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 139<br>編碼樁號: P0610139<br>南（東）向出口預告地名: 大安<br>北（西）向出口預告地名: 大甲<br>縣市: 臺中市<br>鄉鎮市區: 大安區<br>備註: <br>TWD97-X: 208,733.8<br>TWD97-Y: 2,697,563.9<br>WGS84-X: 120.593189<br>WGS84-Y: 24.3835695<br>工程處: 第二區養護工程處<br>工務段: 臺中工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/24.3835695+120.593189]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>139.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610139</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>大安</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>大甲</value>
+        </Data>
+        <Data name="縣市">
+          <value>臺中市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>大安區</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>208733.8</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2697563.9</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.593189</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.3835695</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>臺中工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.3835695+120.593189</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.593189,24.3835695,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>大安二交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 144<br>編碼樁號: P0610144<br>南（東）向出口預告地名: <br>北（西）向出口預告地名: 大安<br>縣市: 臺中市<br>鄉鎮市區: 大安區<br>備註: <br>TWD97-X: 206,316.1<br>TWD97-Y: 2,692,113.7<br>WGS84-X: 120.5695223<br>WGS84-Y: 24.334294<br>工程處: 第二區養護工程處<br>工務段: 臺中工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/24.334294+120.5695223]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>144.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610144</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value/>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>大安</value>
+        </Data>
+        <Data name="縣市">
+          <value>臺中市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>大安區</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>206316.1</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2692113.7</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.5695223</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.334294</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>臺中工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.334294+120.5695223</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.5695223,24.334294,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>清水交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 150<br>編碼樁號: P0610150<br>南（東）向出口預告地名: 國道4號;台17線,清水台中港<br>北（西）向出口預告地名: 國道4號;台10線,清水<br>縣市: 臺中市<br>鄉鎮市區: 清水區<br>備註: <br>TWD97-X: 204,770.5<br>TWD97-Y: 2,688,465.5<br>WGS84-X: 120.5544066<br>WGS84-Y: 24.3013112<br>工程處: 第二區養護工程處<br>工務段: 臺中工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/24.3013112+120.5544066]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>150.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610150</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>國道4號;台17線,清水台中港</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>國道4號;台10線,清水</value>
+        </Data>
+        <Data name="縣市">
+          <value>臺中市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>清水區</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>204770.5</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2688465.5</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.5544066</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.3013112</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>臺中工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.3013112+120.5544066</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.5544066,24.3013112,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>梧棲交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 154<br>編碼樁號: P0610154<br>南（東）向出口預告地名: 梧棲<br>北（西）向出口預告地名: 梧棲<br>縣市: 臺中市<br>鄉鎮市區: 清水區<br>備註: <br>TWD97-X: 203,551.5<br>TWD97-Y: 2,684,402.5<br>WGS84-X: 120.5425288<br>WGS84-Y: 24.2645906<br>工程處: 第二區養護工程處<br>工務段: 臺中工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/24.2645906+120.5425288]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>154.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610154</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>梧棲</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>梧棲</value>
+        </Data>
+        <Data name="縣市">
+          <value>臺中市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>清水區</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>203551.5</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2684402.5</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.5425288</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.2645906</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>臺中工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.2645906+120.5425288</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.5425288,24.2645906,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>龍井交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 157<br>編碼樁號: P0610157<br>南（東）向出口預告地名: 國道3號,龍井交流道;龍井<br>北（西）向出口預告地名: 龍井<br>縣市: 臺中市<br>鄉鎮市區: 梧棲區<br>備註: <br>TWD97-X: 202,340.1<br>TWD97-Y: 2,681,344.3<br>WGS84-X: 120.5306995<br>WGS84-Y: 24.2369421<br>工程處: 第二區養護工程處<br>工務段: 臺中工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/24.2369421+120.5306995]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>157.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610157</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>國道3號,龍井交流道;龍井</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>龍井</value>
+        </Data>
+        <Data name="縣市">
+          <value>臺中市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>梧棲區</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>202340.1</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2681344.3</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.5306995</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.2369421</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>臺中工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.2369421+120.5306995</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.5306995,24.2369421,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>伸港交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 166<br>編碼樁號: P0610166<br>南（東）向出口預告地名: 台61乙線，伸港<br>北（西）向出口預告地名: 台61乙線,伸港<br>縣市: 彰化縣<br>鄉鎮市區: 伸港鄉<br>備註: <br>TWD97-X: 197,592.1<br>TWD97-Y: 2,675,043.6<br>WGS84-X: 120.4841772<br>WGS84-Y: 24.179902<br>工程處: 第二區養護工程處<br>工務段: 彰化工務段<br>標註用: 彰化縣<br>定位點: https://www.google.com.tw/maps/place/24.179902+120.4841772]]></description>
+      <styleUrl>#icon-1884-006064</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>166.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610166</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>台61乙線，伸港</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>台61乙線,伸港</value>
+        </Data>
+        <Data name="縣市">
+          <value>彰化縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>伸港鄉</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>197592.1</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2675043.6</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.4841772</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.179902</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>彰化工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>彰化縣</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.179902+120.4841772</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.4841772,24.179902,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>線西交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 169<br>編碼樁號: P0610169<br>南（東）向出口預告地名: 線西;彰濱工業區(線西區)<br>北（西）向出口預告地名: 彰濱工業區(線西區);線西<br>縣市: 彰化縣<br>鄉鎮市區: 伸港鄉<br>備註: <br>TWD97-X: 194,325.5<br>TWD97-Y: 2,671,586.9<br>WGS84-X: 120.45216<br>WGS84-Y: 24.148579<br>工程處: 第二區養護工程處<br>工務段: 彰化工務段<br>標註用: 彰化縣<br>定位點: https://www.google.com.tw/maps/place/24.148579+120.45216]]></description>
+      <styleUrl>#icon-1884-006064</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>169.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610169</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>線西;彰濱工業區(線西區)</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>彰濱工業區(線西區);線西</value>
+        </Data>
+        <Data name="縣市">
+          <value>彰化縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>伸港鄉</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>194325.5</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2671586.9</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.45216</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.148579</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>彰化工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>彰化縣</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.148579+120.45216</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.45216,24.148579,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>洋厝交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 174<br>編碼樁號: P0610174<br>南（東）向出口預告地名: 崙尾;洋厝<br>北（西）向出口預告地名: 崙尾;洋厝<br>縣市: 彰化縣<br>鄉鎮市區: 鹿港鎮<br>備註: <br>TWD97-X: 192,700.4<br>TWD97-Y: 2667823<br>WGS84-X: 120.4363189<br>WGS84-Y: 24.1145371<br>工程處: 第二區養護工程處<br>工務段: 彰化工務段<br>標註用: 彰化縣<br>定位點: https://www.google.com.tw/maps/place/24.1145371+120.4363189]]></description>
+      <styleUrl>#icon-1884-006064</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>174.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610174</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>崙尾;洋厝</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>崙尾;洋厝</value>
+        </Data>
+        <Data name="縣市">
+          <value>彰化縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>鹿港鎮</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>192700.4</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2667823.0</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.4363189</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.1145371</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>彰化工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>彰化縣</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.1145371+120.4363189</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.4363189,24.1145371,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>鹿港交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 177<br>編碼樁號: P0610177<br>南（東）向出口預告地名: 鹿港;彰濱工業區,鹿港區<br>北（西）向出口預告地名: 彰濱工業區,鹿港區;鹿港<br>縣市: 彰化縣<br>鄉鎮市區: 鹿港鎮<br>備註: <br>TWD97-X: 191,733.9<br>TWD97-Y: 2,664,823.8<br>WGS84-X: 120.4269317<br>WGS84-Y: 24.087422<br>工程處: 第二區養護工程處<br>工務段: 彰化工務段<br>標註用: 彰化縣<br>定位點: https://www.google.com.tw/maps/place/24.087422+120.4269317]]></description>
+      <styleUrl>#icon-1884-006064</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>177.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610177</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>鹿港;彰濱工業區,鹿港區</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>彰濱工業區,鹿港區;鹿港</value>
+        </Data>
+        <Data name="縣市">
+          <value>彰化縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>鹿港鎮</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>191733.9</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2664823.8</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.4269317</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.087422</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>彰化工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>彰化縣</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.087422+120.4269317</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.4269317,24.087422,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>福興交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 180<br>編碼樁號: P0610180<br>南（東）向出口預告地名: 福興;鹿港<br>北（西）向出口預告地名: 福興;鹿港<br>縣市: 彰化縣<br>鄉鎮市區: 鹿港鎮<br>備註: <br>TWD97-X: 190,114.4<br>TWD97-Y: 2,662,168.5<br>WGS84-X: 120.411113<br>WGS84-Y: 24.0633864<br>工程處: 第二區養護工程處<br>工務段: 彰化工務段<br>標註用: 彰化縣<br>定位點: https://www.google.com.tw/maps/place/24.0633864+120.411113]]></description>
+      <styleUrl>#icon-1884-006064</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>180.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610180</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>福興;鹿港</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>福興;鹿港</value>
+        </Data>
+        <Data name="縣市">
+          <value>彰化縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>鹿港鎮</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>190114.4</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2662168.5</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.411113</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.0633864</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>彰化工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>彰化縣</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.0633864+120.411113</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.411113,24.0633864,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>漢寶交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 185<br>編碼樁號: P0610185<br>南（東）向出口預告地名: 漢寶<br>北（西）向出口預告地名: 台17線,漢寶<br>縣市: 彰化縣<br>鄉鎮市區: 福興鄉<br>備註: <br>TWD97-X: 188,172.3<br>TWD97-Y: 2,658,865.3<br>WGS84-X: 120.3921572<br>WGS84-Y: 24.033487<br>工程處: 第二區養護工程處<br>工務段: 彰化工務段<br>標註用: 彰化縣<br>定位點: https://www.google.com.tw/maps/place/24.033487+120.3921572]]></description>
+      <styleUrl>#icon-1884-006064</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>185.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610185</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>漢寶</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>台17線,漢寶</value>
+        </Data>
+        <Data name="縣市">
+          <value>彰化縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>福興鄉</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>188172.3</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2658865.3</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.3921572</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>24.033487</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>彰化工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>彰化縣</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/24.033487+120.3921572</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.3921572,24.033487,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>王功交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 192<br>編碼樁號: P0610192<br>南（東）向出口預告地名: 台17線,王功<br>北（西）向出口預告地名: 台17線,王功<br>縣市: 彰化縣<br>鄉鎮市區: 芳苑鄉<br>備註: <br>TWD97-X: 185,623.6<br>TWD97-Y: 2,653,525.2<br>WGS84-X: 120.3673373<br>WGS84-Y: 23.9851695<br>工程處: 第二區養護工程處<br>工務段: 彰化工務段<br>標註用: 彰化縣<br>定位點: https://www.google.com.tw/maps/place/23.9851695+120.3673373]]></description>
+      <styleUrl>#icon-1884-006064</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>192.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610192</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>台17線,王功</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>台17線,王功</value>
+        </Data>
+        <Data name="縣市">
+          <value>彰化縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>芳苑鄉</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>185623.6</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2653525.2</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.3673373</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>23.9851695</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>彰化工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>彰化縣</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/23.9851695+120.3673373</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.3673373,23.9851695,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>芳苑交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 197<br>編碼樁號: P0610197<br>南（東）向出口預告地名: 台17線,芳苑<br>北（西）向出口預告地名: 台17線,芳苑<br>縣市: 彰化縣<br>鄉鎮市區: 芳苑鄉<br>備註: <br>TWD97-X: 181,607.6<br>TWD97-Y: 2,649,506.8<br>WGS84-X: 120.32806<br>WGS84-Y: 23.9487196<br>工程處: 第二區養護工程處<br>工務段: 彰化工務段<br>標註用: 彰化縣<br>定位點: https://www.google.com.tw/maps/place/23.9487196+120.32806]]></description>
+      <styleUrl>#icon-1884-006064</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>197.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610197</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>台17線,芳苑</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>台17線,芳苑</value>
+        </Data>
+        <Data name="縣市">
+          <value>彰化縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>芳苑鄉</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>181607.6</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2649506.8</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.32806</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>23.9487196</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>彰化工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>彰化縣</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/23.9487196+120.32806</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.32806,23.9487196,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>大城交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 208<br>編碼樁號: P0610208<br>南（東）向出口預告地名: 大城<br>北（西）向出口預告地名: 大城<br>縣市: 彰化縣<br>鄉鎮市區: 大城鄉<br>備註: <br>TWD97-X: 178,157.8<br>TWD97-Y: 2,640,538.2<br>WGS84-X: 120.2946074<br>WGS84-Y: 23.8675901<br>工程處: 第二區養護工程處<br>工務段: 彰化工務段<br>標註用: 彰化縣<br>定位點: https://www.google.com.tw/maps/place/23.8675901+120.2946074]]></description>
+      <styleUrl>#icon-1884-006064</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>208.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610208</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>大城</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>大城</value>
+        </Data>
+        <Data name="縣市">
+          <value>彰化縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>大城鄉</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>178157.8</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2640538.2</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.2946074</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>23.8675901</value>
+        </Data>
+        <Data name="工程處">
+          <value>第二區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>彰化工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>彰化縣</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/23.8675901+120.2946074</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.2946074,23.8675901,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>橋頭交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 216<br>編碼樁號: P0610216<br>南（東）向出口預告地名: 橋頭<br>北（西）向出口預告地名: 橋頭<br>縣市: 雲林縣<br>鄉鎮市區: 麥寮鄉<br>備註: <br>TWD97-X: 176,435.1<br>TWD97-Y: 2,632,426.2<br>WGS84-X: 120.2781002<br>WGS84-Y: 23.7942678<br>工程處: 第五區養護工程處<br>工務段: 斗南工務段<br>標註用: 雲林縣<br>定位點: https://www.google.com.tw/maps/place/23.7942678+120.2781002]]></description>
+      <styleUrl>#icon-1884-3949AB</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>216.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610216</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>橋頭</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>橋頭</value>
+        </Data>
+        <Data name="縣市">
+          <value>雲林縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>麥寮鄉</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>176435.1</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2632426.2</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.2781002</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>23.7942678</value>
+        </Data>
+        <Data name="工程處">
+          <value>第五區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>斗南工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>雲林縣</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/23.7942678+120.2781002</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.2781002,23.7942678,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>麥寮交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 221<br>編碼樁號: P0610221<br>南（東）向出口預告地名: 崙背;麥寮<br>北（西）向出口預告地名: 麥寮;崙背<br>縣市: 雲林縣<br>鄉鎮市區: 麥寮鄉<br>備註: <br>TWD97-X: 175,733.6<br>TWD97-Y: 2,629,529.2<br>WGS84-X: 120.2713624<br>WGS84-Y: 23.7680783<br>工程處: 第五區養護工程處<br>工務段: 斗南工務段<br>標註用: 雲林縣<br>定位點: https://www.google.com.tw/maps/place/23.7680783+120.2713624]]></description>
+      <styleUrl>#icon-1884-3949AB</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>221.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610221</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>崙背;麥寮</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>麥寮;崙背</value>
+        </Data>
+        <Data name="縣市">
+          <value>雲林縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>麥寮鄉</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>175733.6</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2629529.2</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.2713624</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>23.7680783</value>
+        </Data>
+        <Data name="工程處">
+          <value>第五區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>斗南工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>雲林縣</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/23.7680783+120.2713624</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.2713624,23.7680783,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>湖仔內交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 224<br>編碼樁號: P0610224<br>南（東）向出口預告地名: 湖仔內<br>北（西）向出口預告地名: 湖仔內<br>縣市: 雲林縣<br>鄉鎮市區: 麥寮鄉<br>備註: <br>TWD97-X: 174,039.7<br>TWD97-Y: 2,626,162.1<br>WGS84-X: 120.2549172<br>WGS84-Y: 23.737597<br>工程處: 第五區養護工程處<br>工務段: 斗南工務段<br>標註用: 雲林縣<br>定位點: https://www.google.com.tw/maps/place/23.737597+120.2549172]]></description>
+      <styleUrl>#icon-1884-3949AB</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>224.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610224</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>湖仔內</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>湖仔內</value>
+        </Data>
+        <Data name="縣市">
+          <value>雲林縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>麥寮鄉</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>174039.7</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2626162.1</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.2549172</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>23.737597</value>
+        </Data>
+        <Data name="工程處">
+          <value>第五區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>斗南工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>雲林縣</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/23.737597+120.2549172</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.2549172,23.737597,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>崙豐交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 226<br>編碼樁號: P0610226<br>南（東）向出口預告地名: 崙豐<br>北（西）向出口預告地名: <br>縣市: 雲林縣<br>鄉鎮市區: 臺西鄉<br>備註: <br>TWD97-X: 170,748.4<br>TWD97-Y: 2,625,231.9<br>WGS84-X: 120.2226857<br>WGS84-Y: 23.7290396<br>工程處: 第五區養護工程處<br>工務段: 斗南工務段<br>標註用: 雲林縣<br>定位點: https://www.google.com.tw/maps/place/23.7290396+120.2226857]]></description>
+      <styleUrl>#icon-1884-3949AB</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>226.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610226</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>崙豐</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value/>
+        </Data>
+        <Data name="縣市">
+          <value>雲林縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>臺西鄉</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>170748.4</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2625231.9</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.2226857</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>23.7290396</value>
+        </Data>
+        <Data name="工程處">
+          <value>第五區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>斗南工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>雲林縣</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/23.7290396+120.2226857</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.2226857,23.7290396,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>五條港交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 229<br>編碼樁號: P0610229<br>南（東）向出口預告地名: 台西;五條港<br>北（西）向出口預告地名: 台17線,五條港;台17線,台西<br>縣市: 雲林縣<br>鄉鎮市區: 臺西鄉<br>備註: <br>TWD97-X: 169,422.4<br>TWD97-Y: 2,623,965.8<br>WGS84-X: 120.2097495<br>WGS84-Y: 23.7175417<br>工程處: 第五區養護工程處<br>工務段: 斗南工務段<br>標註用: 雲林縣<br>定位點: https://www.google.com.tw/maps/place/23.7175417+120.2097495]]></description>
+      <styleUrl>#icon-1884-3949AB</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>229.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610229</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>台西;五條港</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>台17線,五條港;台17線,台西</value>
+        </Data>
+        <Data name="縣市">
+          <value>雲林縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>臺西鄉</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>169422.4</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2623965.8</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.2097495</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>23.7175417</value>
+        </Data>
+        <Data name="工程處">
+          <value>第五區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>斗南工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>雲林縣</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/23.7175417+120.2097495</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.2097495,23.7175417,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>台西交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 233<br>編碼樁號: P0610233<br>南（東）向出口預告地名: 台78線,古坑;台78線,台西<br>北（西）向出口預告地名: 台78線,古坑;台78線,台西<br>縣市: 雲林縣<br>鄉鎮市區: 臺西鄉<br>備註: <br>TWD97-X: 166,507.9<br>TWD97-Y: 2,622,503.2<br>WGS84-X: 120.1812505<br>WGS84-Y: 23.7041873<br>工程處: 第五區養護工程處<br>工務段: 斗南工務段<br>標註用: 雲林縣<br>定位點: https://www.google.com.tw/maps/place/23.7041873+120.1812505]]></description>
+      <styleUrl>#icon-1884-3949AB</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>233.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610233</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>台78線,古坑;台78線,台西</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>台78線,古坑;台78線,台西</value>
+        </Data>
+        <Data name="縣市">
+          <value>雲林縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>臺西鄉</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>166507.9</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2622503.2</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.1812505</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>23.7041873</value>
+        </Data>
+        <Data name="工程處">
+          <value>第五區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>斗南工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>雲林縣</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/23.7041873+120.1812505</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.1812505,23.7041873,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>四湖交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 238<br>編碼樁號: P0610238<br>南（東）向出口預告地名: 四湖;三條崙<br>北（西）向出口預告地名: 四湖<br>縣市: 雲林縣<br>鄉鎮市區: 四湖鄉<br>備註: <br>TWD97-X: 165,214.1<br>TWD97-Y: 2,618,284.3<br>WGS84-X: 120.1688053<br>WGS84-Y: 23.6660278<br>工程處: 第五區養護工程處<br>工務段: 斗南工務段<br>標註用: 雲林縣<br>定位點: https://www.google.com.tw/maps/place/23.6660278+120.1688053]]></description>
+      <styleUrl>#icon-1884-3949AB</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>238.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610238</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>四湖;三條崙</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>四湖</value>
+        </Data>
+        <Data name="縣市">
+          <value>雲林縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>四湖鄉</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>165214.1</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2618284.3</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.1688053</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>23.6660278</value>
+        </Data>
+        <Data name="工程處">
+          <value>第五區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>斗南工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>雲林縣</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/23.6660278+120.1688053</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.1688053,23.6660278,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>口湖交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 247<br>編碼樁號: P0610247<br>南（東）向出口預告地名: 台17線,口湖<br>北（西）向出口預告地名: 台17線,口湖;台17線,四湖<br>縣市: 雲林縣<br>鄉鎮市區: 口湖鄉<br>備註: <br>TWD97-X: 165,335.6<br>TWD97-Y: 2,612,604.4<br>WGS84-X: 120.17032<br>WGS84-Y: 23.6147498<br>工程處: 第五區養護工程處<br>工務段: 水上工務段<br>標註用: 雲林縣<br>定位點: https://www.google.com.tw/maps/place/23.6147498+120.17032]]></description>
+      <styleUrl>#icon-1884-3949AB</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>247.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610247</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>台17線,口湖</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>台17線,口湖;台17線,四湖</value>
+        </Data>
+        <Data name="縣市">
+          <value>雲林縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>口湖鄉</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>165335.6</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2612604.4</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.17032</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>23.6147498</value>
+        </Data>
+        <Data name="工程處">
+          <value>第五區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>水上工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>雲林縣</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/23.6147498+120.17032</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.17032,23.6147498,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>水井交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 253<br>編碼樁號: P0610253<br>南（東）向出口預告地名: 台17線,?梧<br>北（西）向出口預告地名: 台17線,?梧<br>縣市: 雲林縣<br>鄉鎮市區: 口湖鄉<br>備註: <br>TWD97-X: 164,367.6<br>TWD97-Y: 2606840<br>WGS84-X: 120.1611655<br>WGS84-Y: 23.5626511<br>工程處: 第五區養護工程處<br>工務段: 水上工務段<br>標註用: 雲林縣<br>定位點: https://www.google.com.tw/maps/place/23.5626511+120.1611655]]></description>
+      <styleUrl>#icon-1884-3949AB</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>253.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610253</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>台17線,?梧</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>台17線,?梧</value>
+        </Data>
+        <Data name="縣市">
+          <value>雲林縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>口湖鄉</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>164367.6</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2606840.0</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.1611655</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>23.5626511</value>
+        </Data>
+        <Data name="工程處">
+          <value>第五區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>水上工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>雲林縣</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/23.5626511+120.1611655</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.1611655,23.5626511,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>鰲鼓交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 259<br>編碼樁號: P0610259<br>南（東）向出口預告地名: 台17線,鰲鼓<br>北（西）向出口預告地名: <br>縣市: 嘉義縣<br>鄉鎮市區: 東石鄉<br>備註: <br>TWD97-X: 165,433.6<br>TWD97-Y: 2,600,143.3<br>WGS84-X: 120.171985<br>WGS84-Y: 23.5022422<br>工程處: 第五區養護工程處<br>工務段: 水上工務段<br>標註用: 嘉義縣<br>定位點: https://www.google.com.tw/maps/place/23.5022422+120.171985]]></description>
+      <styleUrl>#icon-1884-F57C00</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>259.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610259</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>台17線,鰲鼓</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value/>
+        </Data>
+        <Data name="縣市">
+          <value>嘉義縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>東石鄉</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>165433.6</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2600143.3</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.171985</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>23.5022422</value>
+        </Data>
+        <Data name="工程處">
+          <value>第五區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>水上工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>嘉義縣</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/23.5022422+120.171985</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.171985,23.5022422,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>東石一交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 261<br>編碼樁號: P0610261<br>南（東）向出口預告地名: 台82線;東石,六腳<br>北（西）向出口預告地名: <br>縣市: 嘉義縣<br>鄉鎮市區: 東石鄉<br>備註: <br>TWD97-X: 165,202.6<br>TWD97-Y: 2,598,295.2<br>WGS84-X: 120.1698289<br>WGS84-Y: 23.4855426<br>工程處: 第五區養護工程處<br>工務段: 水上工務段<br>標註用: 嘉義縣<br>定位點: https://www.google.com.tw/maps/place/23.4855426+120.1698289]]></description>
+      <styleUrl>#icon-1884-F57C00</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>261.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610261</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>台82線;東石,六腳</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value/>
+        </Data>
+        <Data name="縣市">
+          <value>嘉義縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>東石鄉</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>165202.6</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2598295.2</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.1698289</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>23.4855426</value>
+        </Data>
+        <Data name="工程處">
+          <value>第五區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>水上工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>嘉義縣</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/23.4855426+120.1698289</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.1698289,23.4855426,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>東石二交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 262<br>編碼樁號: P0610262<br>南（東）向出口預告地名: <br>北（西）向出口預告地名: 台82線,東石,朴子;台82線,<br>縣市: 嘉義縣<br>鄉鎮市區: 東石鄉<br>備註: <br>TWD97-X: 164,752.4<br>TWD97-Y: 2,594,478.8<br>WGS84-X: 120.1656378<br>WGS84-Y: 23.4510604<br>工程處: 第五區養護工程處<br>工務段: 水上工務段<br>標註用: 嘉義縣<br>定位點: https://www.google.com.tw/maps/place/23.4510604+120.1656378]]></description>
+      <styleUrl>#icon-1884-F57C00</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>262.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610262</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value/>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>台82線,東石,朴子;台82線,</value>
+        </Data>
+        <Data name="縣市">
+          <value>嘉義縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>東石鄉</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>164752.4</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2594478.8</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.1656378</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>23.4510604</value>
+        </Data>
+        <Data name="工程處">
+          <value>第五區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>水上工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>嘉義縣</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/23.4510604+120.1656378</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.1656378,23.4510604,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>白水湖交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 266<br>編碼樁號: P0610266<br>南（東）向出口預告地名: 過溝;白水湖<br>北（西）向出口預告地名: 白水湖;過溝<br>縣市: 嘉義縣<br>鄉鎮市區: 東石鄉<br>備註: <br>TWD97-X: 164,357.5<br>TWD97-Y: 2,591,690.9<br>WGS84-X: 120.161932<br>WGS84-Y: 23.4258668<br>工程處: 第五區養護工程處<br>工務段: 水上工務段<br>標註用: 嘉義縣<br>定位點: https://www.google.com.tw/maps/place/23.4258668+120.161932]]></description>
+      <styleUrl>#icon-1884-F57C00</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>266.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610266</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>過溝;白水湖</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>白水湖;過溝</value>
+        </Data>
+        <Data name="縣市">
+          <value>嘉義縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>東石鄉</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>164357.5</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2591690.9</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.161932</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>23.4258668</value>
+        </Data>
+        <Data name="工程處">
+          <value>第五區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>水上工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>嘉義縣</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/23.4258668+120.161932</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.161932,23.4258668,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>布袋一交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 270<br>編碼樁號: P0610270<br>南（東）向出口預告地名: 布袋<br>北（西）向出口預告地名: 布袋<br>縣市: 嘉義縣<br>鄉鎮市區: 東石鄉<br>備註: <br>TWD97-X: 164,530.6<br>TWD97-Y: 2590374<br>WGS84-X: 120.1637001<br>WGS84-Y: 23.4139851<br>工程處: 第五區養護工程處<br>工務段: 水上工務段<br>標註用: 嘉義縣<br>定位點: https://www.google.com.tw/maps/place/23.4139851+120.1637001]]></description>
+      <styleUrl>#icon-1884-F57C00</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>270.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610270</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>布袋</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>布袋</value>
+        </Data>
+        <Data name="縣市">
+          <value>嘉義縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>東石鄉</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>164530.6</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2590374.0</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.1637001</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>23.4139851</value>
+        </Data>
+        <Data name="工程處">
+          <value>第五區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>水上工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>嘉義縣</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/23.4139851+120.1637001</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.1637001,23.4139851,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>布袋二交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 272<br>編碼樁號: P0610272<br>南（東）向出口預告地名: 布袋<br>北（西）向出口預告地名: 布袋<br>縣市: 嘉義縣<br>鄉鎮市區: 布袋鎮<br>備註: <br>TWD97-X: 163,697.2<br>TWD97-Y: 2,586,311.5<br>WGS84-X: 120.155779<br>WGS84-Y: 23.37726<br>工程處: 第五區養護工程處<br>工務段: 水上工務段<br>標註用: 嘉義縣<br>定位點: https://www.google.com.tw/maps/place/23.37726+120.155779]]></description>
+      <styleUrl>#icon-1884-F57C00</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>272.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610272</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>布袋</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>布袋</value>
+        </Data>
+        <Data name="縣市">
+          <value>嘉義縣</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>布袋鎮</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>163697.2</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2586311.5</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.155779</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>23.37726</value>
+        </Data>
+        <Data name="工程處">
+          <value>第五區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>水上工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>嘉義縣</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/23.37726+120.155779</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.155779,23.37726,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>南鯤鯓交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 281<br>編碼樁號: P0610281<br>南（東）向出口預告地名: 台17線,南鯤鯓<br>北（西）向出口預告地名: <br>縣市: 臺南市<br>鄉鎮市區: 北門區<br>備註: <br>TWD97-X: 163,111.4<br>TWD97-Y: 2,578,676.7<br>WGS84-X: 120.1504875<br>WGS84-Y: 23.3082918<br>工程處: 第五區養護工程處<br>工務段: 新營工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/23.3082918+120.1504875]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>281.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610281</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>台17線,南鯤鯓</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value/>
+        </Data>
+        <Data name="縣市">
+          <value>臺南市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>北門區</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>163111.4</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2578676.7</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.1504875</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>23.3082918</value>
+        </Data>
+        <Data name="工程處">
+          <value>第五區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>新營工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/23.3082918+120.1504875</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.1504875,23.3082918,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>北門交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 283<br>編碼樁號: P0610283<br>南（東）向出口預告地名: 台84線,玉井;台17線,北門<br>北（西）向出口預告地名: 台17線,北門;台84線,玉井<br>縣市: 臺南市<br>鄉鎮市區: 北門區<br>備註: <br>TWD97-X: 161,305.1<br>TWD97-Y: 2,576,438.9<br>WGS84-X: 120.13296<br>WGS84-Y: 23.2879888<br>工程處: 第五區養護工程處<br>工務段: 新營工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/23.2879888+120.13296]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>283.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610283</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>台84線,玉井;台17線,北門</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>台17線,北門;台84線,玉井</value>
+        </Data>
+        <Data name="縣市">
+          <value>臺南市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>北門區</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>161305.1</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2576438.9</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.13296</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>23.2879888</value>
+        </Data>
+        <Data name="工程處">
+          <value>第五區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>新營工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/23.2879888+120.13296</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.13296,23.2879888,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>三寮灣交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 289<br>編碼樁號: P0610289<br>南（東）向出口預告地名: 學甲;蘆竹溝<br>北（西）向出口預告地名: 蘆竹溝;學甲<br>縣市: 臺南市<br>鄉鎮市區: 北門區<br>備註: <br>TWD97-X: 158836<br>TWD97-Y: 2,572,161.8<br>WGS84-X: 120.1090825<br>WGS84-Y: 23.2492339<br>工程處: 第五區養護工程處<br>工務段: 新營工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/23.2492339+120.1090825]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>289.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610289</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>學甲;蘆竹溝</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>蘆竹溝;學甲</value>
+        </Data>
+        <Data name="縣市">
+          <value>臺南市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>北門區</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>158836.0</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2572161.8</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.1090825</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>23.2492339</value>
+        </Data>
+        <Data name="工程處">
+          <value>第五區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>新營工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/23.2492339+120.1090825</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.1090825,23.2492339,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>將軍交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 292<br>編碼樁號: P0610292<br>南（東）向出口預告地名: 將軍;青鯤鯓,馬沙溝<br>北（西）向出口預告地名: 青鯤鯓,馬沙溝;將軍<br>縣市: 臺南市<br>鄉鎮市區: 將軍區<br>備註: <br>TWD97-X: 158,292.1<br>TWD97-Y: 2,569,443.2<br>WGS84-X: 120.1039319<br>WGS84-Y: 23.2246566<br>工程處: 第五區養護工程處<br>工務段: 新營工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/23.2246566+120.1039319]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>292.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610292</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>將軍;青鯤鯓,馬沙溝</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>青鯤鯓,馬沙溝;將軍</value>
+        </Data>
+        <Data name="縣市">
+          <value>臺南市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>將軍區</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>158292.1</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2569443.2</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.1039319</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>23.2246566</value>
+        </Data>
+        <Data name="工程處">
+          <value>第五區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>新營工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/23.2246566+120.1039319</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.1039319,23.2246566,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>七股交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 298<br>編碼樁號: P0610298<br>南（東）向出口預告地名: 七股;鹽埕<br>北（西）向出口預告地名: 七股;鹽埕<br>縣市: 臺南市<br>鄉鎮市區: 七股區<br>備註: <br>TWD97-X: 157,005.4<br>TWD97-Y: 2,563,874.8<br>WGS84-X: 120.0916998<br>WGS84-Y: 23.1743057<br>工程處: 第五區養護工程處<br>工務段: 新化工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/23.1743057+120.0916998]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>298.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610298</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>七股;鹽埕</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value>七股;鹽埕</value>
+        </Data>
+        <Data name="縣市">
+          <value>臺南市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>七股區</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>157005.4</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2563874.8</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.0916998</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>23.1743057</value>
+        </Data>
+        <Data name="工程處">
+          <value>第五區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>新化工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/23.1743057+120.0916998</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.0916998,23.1743057,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>十份交流道</name>
+      <description><![CDATA[公路編號: 台61<br>樁號: 305<br>編碼樁號: P0610305<br>南（東）向出口預告地名: 西港;十份<br>北（西）向出口預告地名: <br>縣市: 臺南市<br>鄉鎮市區: 七股區<br>備註: <br>TWD97-X: 156494<br>TWD97-Y: 2,557,156.1<br>WGS84-X: 120.0871167<br>WGS84-Y: 23.113611<br>工程處: 第五區養護工程處<br>工務段: 新化工務段<br>標註用: 其他縣市<br>定位點: https://www.google.com.tw/maps/place/23.113611+120.0871167]]></description>
+      <styleUrl>#icon-1739-BDBDBD</styleUrl>
+      <ExtendedData>
+        <Data name="公路編號">
+          <value>台61</value>
+        </Data>
+        <Data name="樁號">
+          <value>305.0</value>
+        </Data>
+        <Data name="編碼樁號">
+          <value>P0610305</value>
+        </Data>
+        <Data name="南（東）向出口預告地名">
+          <value>西港;十份</value>
+        </Data>
+        <Data name="北（西）向出口預告地名">
+          <value/>
+        </Data>
+        <Data name="縣市">
+          <value>臺南市</value>
+        </Data>
+        <Data name="鄉鎮市區">
+          <value>七股區</value>
+        </Data>
+        <Data name="備註">
+          <value/>
+        </Data>
+        <Data name="TWD97-X">
+          <value>156494.0</value>
+        </Data>
+        <Data name="TWD97-Y">
+          <value>2557156.1</value>
+        </Data>
+        <Data name="WGS84-X">
+          <value>120.0871167</value>
+        </Data>
+        <Data name="WGS84-Y">
+          <value>23.113611</value>
+        </Data>
+        <Data name="工程處">
+          <value>第五區養護工程處</value>
+        </Data>
+        <Data name="工務段">
+          <value>新化工務段</value>
+        </Data>
+        <Data name="標註用">
+          <value>其他縣市</value>
+        </Data>
+        <Data name="定位點">
+          <value>https://www.google.com.tw/maps/place/23.113611+120.0871167</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          120.0871167,23.113611,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
