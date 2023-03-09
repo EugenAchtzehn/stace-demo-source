@@ -211,14 +211,13 @@ export default {
     convertDnToColorLeafletGL(DN) {
       let color;
       if (DN <= 2) {
-        // 152,251,152
-        color = { r: 0.5, g: 1, b: 0.5 };
+        color = { r: 1, g: 1, b: 0 };
       } else if (DN <= 4) {
-        color = { r: 0, g: 1, b: 0 };
+        color = { r: 1, g: 0.5, b: 0 };
       } else if (DN <= 6) {
-        color = { r: 0, g: 0, b: 1 };
-      } else {
         color = { r: 1, g: 0, b: 0 };
+      } else {
+        color = { r: 0.4, g: 0, b: 0.2 };
       }
       // switch (DN) {
       //   case 1:
