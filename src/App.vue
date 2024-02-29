@@ -1,5 +1,9 @@
 <template>
-  <div class="loader loader-default" :class="{ 'is-active': isLoading }" data-text="資料載入中"></div>
+  <div
+    class="loader loader-default"
+    :class="{ 'is-active': isLoading }"
+    data-text="資料載入中"
+  ></div>
   <div id="mapContainer" ref="mapContainer"></div>
 </template>
 
@@ -127,7 +131,8 @@ export default {
   methods: {
     getGeoJsonLayer() {
       const vm = this;
-      const url = 'https://raw.githubusercontent.com/wiki70170/XDevelop/master/Mid2_Country_Site.geojson';
+      const url =
+        'https://raw.githubusercontent.com/wiki70170/XDevelop/master/Mid2_Country_Site.geojson';
       // const url = 'src/assets/Mid2_Country_Site.geojson';
       return new Promise(function (resolve, reject) {
         vm.isLoading = true;
@@ -334,6 +339,23 @@ export default {
         vm.mapInstance.addLayer(vm.kmlLayerCctv);
       });
     },
+    displayMineWMS() {
+      const vm = this;
+      let mapInstance = vm.mapInstance;
+      const wmsOption = {
+        version: '1.3.0',
+        layers: 'MineArea',
+        transparent: true,
+        bgcolor: '0xFFFFFF',
+        format: 'image/png',
+        // srs: 'EPSG:4326',
+        layerName: 'MineArea',
+      };
+      // 2023/12/01 到期
+      const wmsUrl = 'https://gis.mine.gov.tw/MineMaps_AutoUpdate/simpleWMS.aspx?';
+      const mineLayer = L.tileLayer.wms(wmsUrl, wmsOption).addTo(mapInstance);
+      vm.layerContainer.push(mineLayer);
+    },
   },
   computed: {},
   mounted() {
@@ -345,16 +367,18 @@ export default {
     });
     vm.mapInstance = mapInstance;
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(mapInstance);
     // console.log(L.glify.shader.fragment.polygon);
     // console.log(L.glify.shader.vertex);
 
     vm.getGeoJsonLayer();
     // vm.displayGeoJsonTest();
+    vm.displayMineWMS();
     // icon 目前直接在 kml 中改，由 flaticon 下載後放到公司測試機的路徑下
-    vm.displayIntersectionKml();
-    vm.displayCctvKml();
+    // vm.displayIntersectionKml();
+    // vm.displayCctvKml();
   },
   created() {},
 };
