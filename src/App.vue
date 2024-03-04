@@ -7,9 +7,8 @@
   <main style="display: flex">
     <div class="main__map_container" id="mapContainer" ref="mapContainer"></div>
     <div class="main__control_panel">
-      <div class="h1 fw-bold">圖層控制</div>
       <section class="main__recent_section">
-        <div class="h2 fw-bold">近期資料</div>
+        <!-- <div class="h2 fw-bold">近期資料</div> -->
         <div class="main__layer_section">
           <div class="form-check">
             <input
@@ -75,8 +74,8 @@
         </div>
       </section>
       <section class="main__history_section">
-        <div class="h2 fw-bold">歷史資料</div>
-        <div class="main__layer_section">
+        <!-- <div class="h2 fw-bold">歷史資料</div> -->
+        <div class="main__layer_section mineLand">
           <div class="form-check">
             <input
               class="form-check-input"
@@ -97,7 +96,7 @@
             />
           </div>
         </div>
-        <div class="main__layer_section">
+        <div class="main__layer_section mineLand">
           <div class="form-check">
             <input
               class="form-check-input"
@@ -118,7 +117,7 @@
             />
           </div>
         </div>
-        <div class="main__layer_section">
+        <div class="main__layer_section mineLand">
           <div class="form-check">
             <input
               class="form-check-input"
@@ -139,7 +138,7 @@
             />
           </div>
         </div>
-        <div class="main__layer_section">
+        <div class="main__layer_section mineArea">
           <div class="form-check">
             <input
               class="form-check-input"
@@ -160,7 +159,7 @@
             />
           </div>
         </div>
-        <div class="main__layer_section">
+        <div class="main__layer_section mineArea">
           <div class="form-check">
             <input
               class="form-check-input"
@@ -181,7 +180,7 @@
             />
           </div>
         </div>
-        <div class="main__layer_section">
+        <div class="main__layer_section mineArea">
           <div class="form-check">
             <input
               class="form-check-input"
@@ -373,12 +372,22 @@ export default {
   background-color: #b5caa0;
   margin: 0 auto;
   padding: 0.8rem 0;
-  width: 95%;
+  /* width: 95%; */
+  height: 100%;
+  display: none;
 }
+
 .main__history_section {
   background-color: #fad689;
   margin: 0 auto;
   padding: 0.8rem 0;
-  width: 95%;
+  /* width: 95%; */
+  height: 100%;
+}
+.mineArea {
+  /* display: none; */
+}
+.mineLand {
+  display: none;
 }
 </style>
