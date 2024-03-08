@@ -17,132 +17,13 @@
         ></LayerSwitch>
       </section>
       <section class="main__history_section">
-        <div class="main__layer_section mineLand">
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              v-model="mineHistoryLand2017"
-              @click="toggleMineMapLayers('mineHistoryLand2017', true)"
-            />
-            <label class="from-check-label">礦業用地_201711</label>
-          </div>
-          <div v-if="mineHistoryLand2017">
-            <label class="form-label"> 透明度：{{ layerOpacity.mineHistoryLand2017 }} </label>
-            <input
-              class="form-range"
-              type="range"
-              v-model="layerOpacity.mineHistoryLand2017"
-              step="10"
-              @change="changeOpacity('mineHistoryLand2017')"
-            />
-          </div>
-        </div>
-        <div class="main__layer_section mineLand">
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              v-model="mineHistoryLand2019"
-              @click="toggleMineMapLayers('mineHistoryLand2019', true)"
-            />
-            <label class="from-check-label">礦業用地_201906</label>
-          </div>
-          <div v-if="mineHistoryLand2019">
-            <label class="form-label"> 透明度：{{ layerOpacity.mineHistoryLand2019 }} </label>
-            <input
-              class="form-range"
-              type="range"
-              v-model="layerOpacity.mineHistoryLand2019"
-              step="10"
-              @change="changeOpacity('mineHistoryLand2019')"
-            />
-          </div>
-        </div>
-        <div class="main__layer_section mineLand">
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              v-model="mineHistoryLand2020"
-              @click="toggleMineMapLayers('mineHistoryLand2020', true)"
-            />
-            <label class="from-check-label">礦業用地_202008</label>
-          </div>
-          <div v-if="mineHistoryLand2020">
-            <label class="form-label"> 透明度：{{ layerOpacity.mineHistoryLand2020 }} </label>
-            <input
-              class="form-range"
-              type="range"
-              v-model="layerOpacity.mineHistoryLand2020"
-              step="10"
-              @change="changeOpacity('mineHistoryLand2020')"
-            />
-          </div>
-        </div>
-        <div class="main__layer_section mineArea">
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              v-model="mineHistoryArea2018"
-              @click="toggleMineMapLayers('mineHistoryArea2018', true)"
-            />
-            <label class="from-check-label">礦區範圍_201811</label>
-          </div>
-          <div v-if="mineHistoryArea2018">
-            <label class="form-label"> 透明度：{{ layerOpacity.mineHistoryArea2018 }} </label>
-            <input
-              class="form-range"
-              type="range"
-              v-model="layerOpacity.mineHistoryArea2018"
-              step="10"
-              @change="changeOpacity('mineHistoryArea2018')"
-            />
-          </div>
-        </div>
-        <div class="main__layer_section mineArea">
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              v-model="mineHistoryArea2019"
-              @click="toggleMineMapLayers('mineHistoryArea2019', true)"
-            />
-            <label class="from-check-label">礦區範圍_201906</label>
-          </div>
-          <div v-if="mineHistoryArea2019">
-            <label class="form-label"> 透明度：{{ layerOpacity.mineHistoryArea2019 }} </label>
-            <input
-              class="form-range"
-              type="range"
-              v-model="layerOpacity.mineHistoryArea2019"
-              step="10"
-              @change="changeOpacity('mineHistoryArea2019')"
-            />
-          </div>
-        </div>
-        <div class="main__layer_section mineArea">
-          <div class="form-check">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              v-model="mineHistoryArea2020"
-              @click="toggleMineMapLayers('mineHistoryArea2020', true)"
-            />
-            <label class="from-check-label">礦區範圍_202008</label>
-          </div>
-          <div v-if="mineHistoryArea2020">
-            <label class="form-label"> 透明度：{{ layerOpacity.mineHistoryArea2020 }} </label>
-            <input
-              class="form-range"
-              type="range"
-              v-model="layerOpacity.mineHistoryArea2020"
-              step="10"
-              @change="changeOpacity('mineHistoryArea2020')"
-            />
-          </div>
-        </div>
+        <LayerSwitch
+          v-for="(item, index) in mineHistoryLayers"
+          :key="item.nameChinese"
+          :passInLayerInfo="item"
+          @update-opacity="updateLayerOpacity"
+          @toggle-layer="toggleLayerDisplay"
+        ></LayerSwitch>
       </section>
     </div>
   </main>
@@ -155,7 +36,7 @@ import "leaflet/dist/leaflet.css";
 import LayerSwitch from "@/components/LayerSwitch.vue";
 
 export default {
-  name: 'MainMap',
+  name: "MainMap",
   components: {
     LayerSwitch,
   },
@@ -167,49 +48,62 @@ export default {
       isLoading: false,
       mineMapLayers: [
         {
-          nameChinese: '礦業用地(線)_202010',
-          nameEnglish: 'mineMapLine',
+          nameChinese: "礦業用地(線)_202010",
+          nameEnglish: "mineMapLine",
+          isHistory: false,
           layerNo: 1,
         },
         {
-          nameChinese: '礦業用地(面)_202010',
-          nameEnglish: 'mineMapPolygon',
+          nameChinese: "礦業用地(面)_202010",
+          nameEnglish: "mineMapPolygon",
+          isHistory: false,
           layerNo: 2,
         },
         {
-          nameChinese: '礦區範圍_202010',
-          nameEnglish: 'mineMapArea',
+          nameChinese: "礦區範圍_202010",
+          nameEnglish: "mineMapArea",
+          isHistory: false,
           layerNo: 3,
         },
       ],
       mineHistoryLayers: [
-        'mineHistoryLand2017',
-        'mineHistoryLand2019',
-        'mineHistoryLand2020',
-        'mineHistoryArea2018',
-        'mineHistoryArea2019',
-        'mineHistoryArea2020',
+        {
+          nameChinese: "礦業用地_201711",
+          nameEnglish: "mineHistoryLand2017",
+          isHistory: true,
+          layerNo: 0,
+        },
+        {
+          nameChinese: "礦業用地_201906",
+          nameEnglish: "mineHistoryLand2019",
+          isHistory: true,
+          layerNo: 1,
+        },
+        {
+          nameChinese: "礦業用地_202008",
+          nameEnglish: "mineHistoryLand2020",
+          isHistory: true,
+          layerNo: 2,
+        },
+        {
+          nameChinese: "礦區範圍_201811",
+          nameEnglish: "mineHistoryArea2018",
+          isHistory: true,
+          layerNo: 3,
+        },
+        {
+          nameChinese: "礦區範圍_201906",
+          nameEnglish: "mineHistoryArea2019",
+          isHistory: true,
+          layerNo: 4,
+        },
+        {
+          nameChinese: "礦區範圍_202008",
+          nameEnglish: "mineHistoryArea2020",
+          isHistory: true,
+          layerNo: 5,
+        },
       ],
-      mineMapLine: false,
-      mineMapPolygon: false,
-      mineMapArea: false,
-      mineHistoryLand2017: false,
-      mineHistoryLand2019: false,
-      mineHistoryLand2020: false,
-      mineHistoryArea2018: false,
-      mineHistoryArea2019: false,
-      mineHistoryArea2020: false,
-      layerOpacity: {
-        mineMapLine: "100",
-        mineMapPolygon: "100",
-        mineMapArea: "100",
-        mineHistoryLand2017: "100",
-        mineHistoryLand2019: "100",
-        mineHistoryLand2020: "100",
-        mineHistoryArea2018: "100",
-        mineHistoryArea2019: "100",
-        mineHistoryArea2020: "100",
-      },
     };
   },
   methods: {
@@ -225,59 +119,30 @@ export default {
     },
     toggleLayerDisplay(layerInfo) {
       const vm = this;
-      // console.log(layerInfo);
+      console.log(layerInfo);
       // 假使為 false/關閉
       if (!layerInfo.displayStatus) {
-        vm.closeWMSLayer(layerInfo.layerName);
+        vm.closeWMSLayer(layerInfo);
       } else {
-        vm.openWMSLayer(layerInfo.layerName, false);
+        vm.openWMSLayer(layerInfo);
       }
     },
-    closeWMSLayer(WMSlayerName) {
+    closeWMSLayer(layerInfo) {
+      const { layerName } = layerInfo;
       const vm = this;
       let mapInstance = vm.mapInstance;
       vm.WMSLayers.forEach((item, index) => {
         // console.log(item);
-        if (item.wmsParams.layerName === WMSlayerName) {
+        if (item.wmsParams.layerName === layerName) {
           item.removeFrom(mapInstance);
         }
       });
     },
-    openWMSLayer(WMSlayerName, isHistory) {
+    openWMSLayer(layerInfo) {
       const vm = this;
+      const { layerName, layerNo, isHistory } = layerInfo;
       let mapInstance = vm.mapInstance;
-      let layerNo;
       let wmsUrl = "";
-
-      switch (WMSlayerName) {
-        case "mineMapLine":
-          layerNo = 1;
-          break;
-        case "mineMapPolygon":
-          layerNo = 2;
-          break;
-        case "mineMapArea":
-          layerNo = 3;
-          break;
-        case "mineHistoryLand2017":
-          layerNo = 0;
-          break;
-        case "mineHistoryLand2019":
-          layerNo = 1;
-          break;
-        case "mineHistoryLand2020":
-          layerNo = 2;
-          break;
-        case "mineHistoryArea2018":
-          layerNo = 3;
-          break;
-        case "mineHistoryArea2019":
-          layerNo = 4;
-          break;
-        case "mineHistoryArea2020":
-          layerNo = 5;
-          break;
-      }
 
       if (isHistory) {
         wmsUrl =
@@ -295,21 +160,11 @@ export default {
         format: "image/png",
         // srs: 'EPSG:4326',
         opacity: 1,
-        layerName: WMSlayerName,
+        layerName: layerName,
       };
 
       const wmsLayer = L.tileLayer.wms(wmsUrl, wmsOption).addTo(mapInstance);
       vm.WMSLayers.push(wmsLayer);
-    },
-    toggleMineMapLayers(WMSlayerName, isHistory) {
-      // console.log("WMSlayerName", WMSlayerName);
-      const vm = this;
-      // 如果是已開啟狀態
-      if (vm[WMSlayerName]) {
-        vm.closeWMSLayer(WMSlayerName);
-      } else {
-        vm.openWMSLayer(WMSlayerName, isHistory);
-      }
     },
   },
   mounted() {
@@ -324,25 +179,20 @@ export default {
       attribution:
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(mapInstance);
-
-    vm.toggleMineMapLayers("mineMapLine", false);
-    vm.toggleMineMapLayers("mineMapPolygon", false);
-    vm.toggleMineMapLayers("mineMapArea", false);
   },
 };
 </script>
 
 <style scoped>
 .main__map_container {
-  width: 100%;
+  width: 70%;
   height: 100vh;
 }
 .main__control_panel {
-  /* width: 30%; */
+  width: 30%;
   height: 100vh;
   overflow: auto;
   background-color: #ecf0f1;
-  display: none;
 }
 .main__layer_section {
   border: 2px solid #0b346e;

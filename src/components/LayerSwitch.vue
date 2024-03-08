@@ -23,19 +23,20 @@
 </template>
 <script>
 export default {
-  name: 'LayerSwitch',
+  name: "LayerSwitch",
   data() {
     return {
       layerDisplayStatus: false,
-      layerOpacity: '100',
+      layerOpacity: "100",
     };
   },
   // 接收父層傳入的數值
   props: {
     // 範例
     // passInLayerInfo: {
-    //   nameChinese: '礦業用地(線)_202010',
-    //   nameEnglish: 'mineMapLine',
+    //   nameChinese: "礦業用地(線)_202010",
+    //   nameEnglish: "mineMapLine",
+    //   isHistory: false,
     //   layerNo: 1,
     // },
     passInLayerInfo: {
@@ -43,7 +44,7 @@ export default {
       default: () => ({}),
     },
   },
-  emits: ['toggle-layer', 'update-opacity'],
+  emits: ["toggle-layer", "update-opacity"],
   methods: {
     toggleMineMapLayers() {
       const vm = this;
@@ -51,8 +52,9 @@ export default {
         layerName: vm.passInLayerInfo.nameEnglish,
         layerNo: vm.passInLayerInfo.layerNo,
         displayStatus: vm.layerDisplayStatus,
+        isHistory: vm.passInLayerInfo.isHistory,
       };
-      vm.$emit('toggle-layer', layerInfo);
+      vm.$emit("toggle-layer", layerInfo);
     },
     changeOpacity() {
       const vm = this;
@@ -60,7 +62,7 @@ export default {
         layerName: vm.passInLayerInfo.nameEnglish,
         layerOpacity: vm.layerOpacity,
       };
-      vm.$emit('update-opacity', layerInfo);
+      vm.$emit("update-opacity", layerInfo);
     },
   },
 };
