@@ -16,18 +16,18 @@
         type="range"
         v-model="layerOpacity"
         step="10"
-        @change="changeOpacity('mineHistoryArea2020')"
+        @change="changeOpacity()"
       />
     </div>
   </div>
 </template>
 <script>
 export default {
-  name: "LayerSwitch",
+  name: 'LayerSwitch',
   data() {
     return {
       layerDisplayStatus: false,
-      layerOpacity: "100",
+      layerOpacity: '100',
     };
   },
   // 接收父層傳入的數值
@@ -36,33 +36,33 @@ export default {
     // passInLayerInfo: {
     //   nameChinese: "礦業用地(線)_202010",
     //   nameEnglish: "mineMapLine",
-    //   isHistory: false,
-    //   layerNo: 1,
+    //   layerSource: "current",
+    //   layerName: 1,
     // },
     passInLayerInfo: {
       type: Object,
       default: () => ({}),
     },
   },
-  emits: ["toggle-layer", "update-opacity"],
+  emits: ['toggle-layer', 'update-opacity'],
   methods: {
     toggleMineMapLayers() {
       const vm = this;
       const layerInfo = {
-        layerName: vm.passInLayerInfo.nameEnglish,
-        layerNo: vm.passInLayerInfo.layerNo,
+        layerNameEnglish: vm.passInLayerInfo.nameEnglish,
+        layerName: vm.passInLayerInfo.layerName,
         displayStatus: vm.layerDisplayStatus,
-        isHistory: vm.passInLayerInfo.isHistory,
+        layerSource: vm.passInLayerInfo.layerSource,
       };
-      vm.$emit("toggle-layer", layerInfo);
+      vm.$emit('toggle-layer', layerInfo);
     },
     changeOpacity() {
       const vm = this;
       const layerInfo = {
-        layerName: vm.passInLayerInfo.nameEnglish,
+        layerNameEnglish: vm.passInLayerInfo.nameEnglish,
         layerOpacity: vm.layerOpacity,
       };
-      vm.$emit("update-opacity", layerInfo);
+      vm.$emit('update-opacity', layerInfo);
     },
   },
 };

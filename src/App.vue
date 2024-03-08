@@ -25,18 +25,27 @@
           @toggle-layer="toggleLayerDisplay"
         ></LayerSwitch>
       </section>
+      <section class="main__nlsc_section">
+        <LayerSwitch
+          v-for="item in NLSCLayers"
+          :key="item.nameChinese"
+          :passInLayerInfo="item"
+          @update-opacity="updateLayerOpacity"
+          @toggle-layer="toggleLayerDisplay"
+        ></LayerSwitch>
+      </section>
     </div>
   </main>
 </template>
 
 <script>
-import L from "leaflet";
-import "leaflet/dist/leaflet.css";
+import L from 'leaflet';
+import 'leaflet/dist/leaflet.css';
 
-import LayerSwitch from "@/components/LayerSwitch.vue";
+import LayerSwitch from '@/components/LayerSwitch.vue';
 
 export default {
-  name: "MainMap",
+  name: 'MainMap',
   components: {
     LayerSwitch,
   },
@@ -48,60 +57,56 @@ export default {
       isLoading: false,
       mineMapLayers: [
         {
-          nameChinese: "礦業用地(線)_202010",
-          nameEnglish: "mineMapLine",
-          isHistory: false,
-          layerNo: 1,
+          nameChinese: '礦業用地(線)_202010',
+          nameEnglish: 'mineMapLine',
+          layerSource: 'current',
+          layerName: 1,
         },
         {
-          nameChinese: "礦業用地(面)_202010",
-          nameEnglish: "mineMapPolygon",
-          isHistory: false,
-          layerNo: 2,
+          nameChinese: '礦業用地(面)_202010',
+          nameEnglish: 'mineMapPolygon',
+          layerSource: 'current',
+          layerName: 2,
         },
         {
-          nameChinese: "礦區範圍_202010",
-          nameEnglish: "mineMapArea",
-          isHistory: false,
-          layerNo: 3,
+          nameChinese: '礦區範圍_202010',
+          nameEnglish: 'mineMapArea',
+          layerSource: 'current',
+          layerName: 3,
         },
       ],
       mineHistoryLayers: [
         {
-          nameChinese: "礦業用地_201711",
-          nameEnglish: "mineHistoryLand2017",
-          isHistory: true,
-          layerNo: 0,
+          nameChinese: '礦業用地_201906',
+          nameEnglish: 'mineHistoryLand2019',
+          layerSource: 'history',
+          layerName: 1,
         },
         {
-          nameChinese: "礦業用地_201906",
-          nameEnglish: "mineHistoryLand2019",
-          isHistory: true,
-          layerNo: 1,
+          nameChinese: '礦區範圍_201906',
+          nameEnglish: 'mineHistoryArea2019',
+          layerSource: 'history',
+          layerName: 4,
+        },
+      ],
+      NLSCLayers: [
+        {
+          nameChinese: '段籍圖',
+          nameEnglish: 'landSectMap',
+          layerSource: 'NLSC',
+          layerName: 'LANDSECT',
         },
         {
-          nameChinese: "礦業用地_202008",
-          nameEnglish: "mineHistoryLand2020",
-          isHistory: true,
-          layerNo: 2,
+          nameChinese: '道路路網',
+          nameEnglish: 'roadMap',
+          layerSource: 'NLSC',
+          layerName: 'ROAD',
         },
         {
-          nameChinese: "礦區範圍_201811",
-          nameEnglish: "mineHistoryArea2018",
-          isHistory: true,
-          layerNo: 3,
-        },
-        {
-          nameChinese: "礦區範圍_201906",
-          nameEnglish: "mineHistoryArea2019",
-          isHistory: true,
-          layerNo: 4,
-        },
-        {
-          nameChinese: "礦區範圍_202008",
-          nameEnglish: "mineHistoryArea2020",
-          isHistory: true,
-          layerNo: 5,
+          nameChinese: '各級學校範圍圖',
+          nameEnglish: 'schoolMap',
+          layerSource: 'NLSC',
+          layerName: 'SCHOOL',
         },
       ],
     };
@@ -112,7 +117,7 @@ export default {
       // console.log(layerInfo);
       const opacity = Number(layerInfo.layerOpacity) / 100;
       vm.WMSLayers.forEach((item) => {
-        if (item.wmsParams.layerName === layerInfo.layerName) {
+        if (item.wmsParams.layerName === layerInfo.layerNameEnglish) {
           item.setOpacity(opacity);
         }
       });
@@ -128,39 +133,48 @@ export default {
       }
     },
     closeWMSLayer(layerInfo) {
-      const { layerName } = layerInfo;
+      const { layerNameEnglish } = layerInfo;
       const vm = this;
       let mapInstance = vm.mapInstance;
       vm.WMSLayers.forEach((item, index) => {
         // console.log(item);
-        if (item.wmsParams.layerName === layerName) {
+        if (item.wmsParams.layerName === layerNameEnglish) {
           item.removeFrom(mapInstance);
         }
       });
     },
     openWMSLayer(layerInfo) {
       const vm = this;
-      const { layerName, layerNo, isHistory } = layerInfo;
+      const { layerNameEnglish, layerName, layerSource } = layerInfo;
       let mapInstance = vm.mapInstance;
-      let wmsUrl = "";
+      let wmsUrl = '';
 
-      if (isHistory) {
-        wmsUrl =
-          "https://gis.pstcom.com.tw/pstarcgisserver/services/MINE/MineMap_history/MapServer/WMSServer?";
-      } else {
-        wmsUrl =
-          "https://gis.pstcom.com.tw/pstarcgisserver/services/MINE/MineMap_v2/MapServer/WMSServer?";
+      switch (layerSource) {
+        case 'current': {
+          wmsUrl =
+            'https://gis.pstcom.com.tw/pstarcgisserver/services/MINE/MineMap_v2/MapServer/WMSServer?';
+          break;
+        }
+        case 'history': {
+          wmsUrl =
+            'https://gis.pstcom.com.tw/pstarcgisserver/services/MINE/MineMap_history/MapServer/WMSServer?';
+          break;
+        }
+        case 'NLSC': {
+          wmsUrl = 'https://wms.nlsc.gov.tw/wms';
+          break;
+        }
       }
 
       const wmsOption = {
-        version: "1.3.0",
-        layers: layerNo,
+        version: '1.3.0',
+        layers: layerName,
         transparent: true,
-        bgcolor: "0xFFFFFF",
-        format: "image/png",
+        bgcolor: '0xFFFFFF',
+        format: 'image/png',
         // srs: 'EPSG:4326',
         opacity: 1,
-        layerName: layerName,
+        layerName: layerNameEnglish,
       };
 
       const wmsLayer = L.tileLayer.wms(wmsUrl, wmsOption).addTo(mapInstance);
@@ -171,11 +185,11 @@ export default {
     const vm = this;
     const mapDom = this.$refs.mapContainer;
     let mapInstance = L.map(mapDom, {
-      center: [23.994975495847584, 121.55228927116447],
-      zoom: 15,
+      center: [23.995, 121.552],
+      zoom: 12,
     });
     vm.mapInstance = mapInstance;
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution:
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(mapInstance);
@@ -209,6 +223,13 @@ export default {
   margin: 0 auto;
   padding: 0.5rem 0;
 }
+
+.main__nlsc_section {
+  background-color: #9b90c2;
+  margin: 0 auto;
+  padding: 0.5rem 0;
+}
+
 /* .mineArea {
   display: none;
 }
