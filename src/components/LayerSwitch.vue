@@ -4,17 +4,17 @@
       <input
         class="form-check-input"
         type="checkbox"
-        v-model="mineHistoryArea2020"
-        @click="toggleMineMapLayers('mineHistoryArea2020', true)"
+        v-model="layerDisplayStatus"
+        @change="toggleMineMapLayers"
       />
-      <label class="from-check-label">礦區範圍_202008</label>
+      <label class="from-check-label">{{ passInLayerInfo.nameChinese }}</label>
     </div>
-    <div v-if="mineHistoryArea2020">
-      <label class="form-label"> 透明度：{{ layerOpacity.mineHistoryArea2020 }} </label>
+    <div v-if="layerDisplayStatus">
+      <label class="form-label"> 透明度：{{ layerOpacity }} </label>
       <input
         class="form-range"
         type="range"
-        v-model="layerOpacity.mineHistoryArea2020"
+        v-model="layerOpacity"
         step="10"
         @change="changeOpacity('mineHistoryArea2020')"
       />
@@ -26,13 +26,42 @@ export default {
   name: 'LayerSwitch',
   data() {
     return {
-      mineHistoryArea2020: '',
-      layerOpacity: { mineHistoryArea2020: '' },
+      layerDisplayStatus: false,
+      layerOpacity: '100',
     };
   },
+  // 接收父層傳入的數值
+  props: {
+    // 範例
+    // passInLayerInfo: {
+    //   nameChinese: '礦業用地(線)_202010',
+    //   nameEnglish: 'mineMapLine',
+    //   layerNo: 1,
+    // },
+    passInLayerInfo: {
+      type: Object,
+      default: () => ({}),
+    },
+  },
+  emits: ['toggle-layer', 'update-opacity'],
   methods: {
-    toggleMineMapLayers() {},
-    changeOpacity() {},
+    toggleMineMapLayers() {
+      const vm = this;
+      const layerInfo = {
+        layerName: vm.passInLayerInfo.nameEnglish,
+        layerNo: vm.passInLayerInfo.layerNo,
+        displayStatus: vm.layerDisplayStatus,
+      };
+      vm.$emit('toggle-layer', layerInfo);
+    },
+    changeOpacity() {
+      const vm = this;
+      const layerInfo = {
+        layerName: vm.passInLayerInfo.nameEnglish,
+        layerOpacity: vm.layerOpacity,
+      };
+      vm.$emit('update-opacity', layerInfo);
+    },
   },
 };
 </script>
