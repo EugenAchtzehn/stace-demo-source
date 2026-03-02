@@ -151,13 +151,12 @@ export default {
     },
     getGeoJsonLayer() {
       const vm = this;
-      const url =
-        'https://raw.githubusercontent.com/wiki70170/XDevelop/master/Mid2_Country_Site.geojson';
+      const url = '/Mid2_Country_Site.geojson';
       // const url = 'src/assets/Mid2_Country_Site.geojson';
       return new Promise(function (resolve, reject) {
         vm.isLoading = true;
         vm.axios
-          .get(url)
+          .get(url, { responseType: 'json' })
           .then(function (response) {
             // vm.displayGeoJson(response.data);
             vm.displayGeoJsonLeafletGL(response.data);
@@ -332,7 +331,7 @@ export default {
     },
     displayIntersectionKml() {
       const vm = this;
-      vm.axios.get('src/assets/T61_intersection.kml').then(function (response) {
+      vm.axios.get('/T61_intersection.kml').then(function (response) {
         let data = response.data;
         // console.log(arguments);
         // console.log(data);
@@ -347,7 +346,7 @@ export default {
     // 懶得改
     displayCctvKml() {
       const vm = this;
-      vm.axios.get('src/assets/CCTV_T61.kml').then(function (response) {
+      vm.axios.get('/CCTV_T61.kml').then(function (response) {
         let data = response.data;
         // console.log(arguments);
         // console.log(data);
