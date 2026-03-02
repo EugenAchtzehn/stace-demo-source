@@ -49,7 +49,7 @@
       // 取得 GeoJSON 資料
       async getGeoJSONLayer() {
         const vm = this;
-        const url = "/Mid2_Country_Site.json";
+        const url = new URL("Mid2_Country_Site.json", import.meta.env.BASE_URL).pathname;
         vm.isLoading = true;
         try {
           const response = await vm.axios.get(url, {
@@ -182,7 +182,8 @@
 
       displayIntersectionKml() {
         const vm = this;
-        vm.axios.get("/T61_intersection.kml").then(function (response) {
+        const url = new URL("T61_intersection.kml", import.meta.env.BASE_URL).pathname;
+        vm.axios.get(url).then(function (response) {
           let data = response.data;
           // console.log(arguments);
           // console.log(data);
@@ -198,7 +199,8 @@
       // 懶得改
       displayCctvKml() {
         const vm = this;
-        vm.axios.get("/CCTV_T61.kml").then(function (response) {
+        const url = new URL("CCTV_T61.kml", import.meta.env.BASE_URL).pathname;
+        vm.axios.get(url).then(function (response) {
           let data = response.data;
           // console.log(arguments);
           // console.log(data);
