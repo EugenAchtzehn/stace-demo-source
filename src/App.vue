@@ -201,9 +201,10 @@
         const vm = this;
         const url = new URL("CCTV_T61.kml", import.meta.env.BASE_URL).pathname;
         vm.axios.get(url).then(function (response) {
+          debugger;
           let data = response.data;
+          console.log(data);
           // console.log(arguments);
-          // console.log(data);
           const parser = new DOMParser();
           // 解析 Kml
           const kmlData = parser.parseFromString(data, "text/xml");
