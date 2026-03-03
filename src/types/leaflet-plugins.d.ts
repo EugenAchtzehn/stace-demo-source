@@ -3,13 +3,12 @@ import "leaflet";
 declare module "leaflet" {
   interface Layer {
     managed?: {
+      id?: number;
       name?: string;
       type?: string;
-      params?: {
-        opacity?: number;
-        subType?: string;
-        [key: string]: unknown;
-      };
+      opacity?: number;
+      subType?: string;
+      [key: string]: unknown;
     };
   }
 

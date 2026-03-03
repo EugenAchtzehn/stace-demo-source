@@ -8,7 +8,7 @@
     <div class="map_container" ref="mapEl"></div>
     <div class="control_panel">
       <div class="h1">圖層控制</div>
-      <div v-for="layer in uiLayers" :key="layer.id">
+      <div v-for="layer in managedLayers" :key="layer.id">
         <layer-item :layer="layer" @opacity-change="rangeChange" />
       </div>
     </div>
@@ -28,17 +28,10 @@
 
   // ===== types =====
   import type { Layer, LayerGroup, Map } from "leaflet";
-  import type { GeoJSON } from "geojson";
-  import type {
-    LayerOpacityChangePayload,
-    ManagedLayerMeta,
-    ManagedLayerViewModel,
-  } from "./types/ManagedLayer";
+  import type { LayerControlPayload, ManagedLayer } from "./types/ManagedLayer";
 
   type GeoJsonFeature = {
     properties: {
-      DN: number;
-      color?: unknown;
       [key: string]: unknown;
     };
     [key: string]: unknown;
@@ -56,64 +49,62 @@
     data() {
       return {
         mapInstance: null as Map | null,
-        managedLayerGroup: null as LayerGroup | null,
-        uiLayers: [] as ManagedLayerViewModel[],
-        opacity1: "100",
+        // 需要由 UI 控制的 Layers 通通放在這邊管理，底圖或是 glify 的不在這
+        layerGroup: null as LayerGroup | null,
+        managedLayers: [] as ManagedLayer[],
         geoJsonData: {} as GeoJsonData,
         isLoading: false,
       };
     },
     methods: {
-      addManagedLayer(layer: Layer, managed: ManagedLayerMeta) {
+      addManagedLayer(layer: Layer, managed: ManagedLayer) {
         const vm = this;
-        if (!vm.managedLayerGroup) return;
-
+        if (!vm.layerGroup) return;
         layer.managed = managed;
-        vm.managedLayerGroup.addLayer(layer);
-        vm.refreshUiLayers();
+        vm.layerGroup.addLayer(layer);
+        vm.updateManagedLayers();
       },
 
-      refreshUiLayers() {
+      updateManagedLayers() {
         const vm = this;
-        if (!vm.managedLayerGroup) return;
+        if (!vm.layerGroup) return;
 
-        const nextLayers: ManagedLayerViewModel[] = [];
-        vm.managedLayerGroup.eachLayer((layer: Layer) => {
-          const id = vm.managedLayerGroup!.getLayerId(layer);
+        const updatedManagedLayers: ManagedLayer[] = [];
+        vm.layerGroup.eachLayer((layer: Layer) => {
+          const id = vm.layerGroup!.getLayerId(layer);
           const managed = layer.managed || {};
-          const opacity = Number(managed.params?.opacity ?? 1);
 
-          nextLayers.push({
+          const updatedManagedLayer: ManagedLayer = {
             id,
             name: managed.name || `layer_${id}`,
-            type: managed.type || "Layer",
-            params: { ...managed.params, opacity },
-          });
+            type: managed.type || "UnknownLayer",
+            opacity: typeof managed.opacity === "number" ? managed.opacity : 1,
+            subType: managed.subType,
+          };
+          updatedManagedLayers.push(updatedManagedLayer);
         });
 
-        vm.uiLayers = nextLayers;
+        vm.managedLayers = updatedManagedLayers;
       },
 
-      rangeChange(payload?: LayerOpacityChangePayload) {
+      rangeChange(payload?: LayerControlPayload) {
         const vm = this;
-        if (!vm.managedLayerGroup) return;
+        if (!vm.layerGroup) return;
+        if (!payload || typeof payload !== "object") return;
 
-        let layerId = vm.uiLayers?.[0]?.id;
-        let opacityPercentage = Number(vm.opacity1) / 100;
+        const layerId = payload.id;
+        const updatedOpacity = payload.opacity;
 
-        if (payload && typeof payload === "object") {
-          layerId = payload.id;
-          opacityPercentage = payload.opacity;
-        }
+        // 先更新 managedLayers 的 opacity（UI 狀態）
+        const managedLayer = vm.managedLayers.find((item) => item.id === layerId);
+        if (managedLayer) managedLayer.opacity = updatedOpacity;
 
-        if (typeof layerId !== "number") return;
-
-        const targetLayer = vm.managedLayerGroup.getLayer(layerId);
+        // 再用 id 找 layerGroup 內實體圖層做實際更新
+        const targetLayer = vm.layerGroup.getLayer(layerId);
         if (!targetLayer) return;
         if (!targetLayer.managed) return;
 
-        targetLayer.managed.params = targetLayer.managed.params || { opacity: 1 };
-        targetLayer.managed.params.opacity = opacityPercentage;
+        targetLayer.managed.opacity = updatedOpacity;
 
         const leafLayer = targetLayer as unknown as {
           setOpacity?: (opacity: number) => void;
@@ -121,7 +112,7 @@
         };
 
         if (typeof leafLayer.setOpacity === "function") {
-          leafLayer.setOpacity(opacityPercentage);
+          leafLayer.setOpacity(updatedOpacity);
         }
 
         if (typeof leafLayer.eachLayer === "function") {
@@ -133,17 +124,17 @@
 
             if (typeof child.setStyle === "function") {
               child.setStyle({
-                opacity: opacityPercentage,
-                fillOpacity: opacityPercentage,
+                opacity: updatedOpacity,
+                fillOpacity: updatedOpacity,
               });
             }
             if (typeof child.setOpacity === "function") {
-              child.setOpacity(opacityPercentage);
+              child.setOpacity(updatedOpacity);
             }
           });
         }
 
-        vm.refreshUiLayers();
+        vm.updateManagedLayers();
       },
       // 取得 GeoJSON 資料
       async getGeoJSONData(): Promise<GeoJsonData> {
@@ -276,7 +267,8 @@
           vm.addManagedLayer(new L.KML(kmlData), {
             name: "T61_intersection.kml",
             type: "VectorLayer",
-            params: { opacity: 1, subType: "KML" },
+            opacity: 1,
+            subType: "KML",
           });
         });
       },
@@ -294,7 +286,8 @@
           vm.addManagedLayer(new L.KML(kmlData), {
             name: "CCTV_T61.kml",
             type: "VectorLayer",
-            params: { opacity: 1, subType: "KML" },
+            opacity: 1,
+            subType: "KML",
           });
         });
       },
@@ -317,7 +310,8 @@
         vm.addManagedLayer(mineLayer, {
           name: wmsOption.layerName,
           type: "TileLayer",
-          params: { opacity: wmsOption.opacity, subType: "WMS" },
+          opacity: wmsOption.opacity,
+          subType: "WMS",
         });
       },
 
@@ -349,8 +343,8 @@
         zoom: 9,
       });
       vm.mapInstance = mapInstance;
-      vm.managedLayerGroup = L.layerGroup().addTo(mapInstance);
-      // 底圖，不放在 managedLayerGroup 裡管理
+      vm.layerGroup = L.layerGroup().addTo(mapInstance);
+      // 底圖，不放在 layerGroup 裡管理
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
         attribution:
           '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',

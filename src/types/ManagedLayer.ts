@@ -1,20 +1,14 @@
-export interface ManagedLayerParams {
-  opacity: number;
-  subType?: string;
-  [key: string]: unknown;
-}
-
-export interface ManagedLayerMeta {
+export interface ManagedLayer {
+  id: number;
   name: string;
   type: string;
-  params: ManagedLayerParams;
+  opacity?: number;
+  subType?: string;
+  [key: string]: any;
 }
 
-export interface ManagedLayerViewModel extends ManagedLayerMeta {
-  id: number;
-}
-
-export interface LayerOpacityChangePayload {
+export interface LayerControlPayload {
   id: number;
   opacity: number;
+  visible?: boolean;
 }

@@ -2,7 +2,10 @@
   <div class="layer_section">
     <div class="layer-title">{{ layer.name }}</div>
     <div class="layer-meta">
-      {{ layer.type }}<span v-if="layer.params?.subType"> / {{ layer.params?.subType }}</span>
+      <span>
+        {{ layer.type }}
+      </span>
+      <span v-if="layer.subType"> / {{ layer.subType }}</span>
     </div>
     <label class="layer-opacity-label" :for="`opacity-${layer.id}`"
       >透明度: {{ Math.round(localOpacity * 100) }}%</label
@@ -21,24 +24,24 @@
 
 <script lang="ts">
   import { defineComponent, type PropType } from "vue";
-  import type { LayerOpacityChangePayload, ManagedLayerViewModel } from "../types/ManagedLayer";
+  import type { LayerControlPayload, ManagedLayer } from "../types/ManagedLayer";
 
   export default defineComponent({
     name: "LayerItem",
     props: {
       layer: {
-        type: Object as PropType<ManagedLayerViewModel>,
+        type: Object as PropType<ManagedLayer>,
         required: true,
       },
     },
     emits: {
-      "opacity-change": (payload: LayerOpacityChangePayload) => {
+      "opacity-change": (payload: LayerControlPayload) => {
         return typeof payload?.id === "number" && typeof payload?.opacity === "number";
       },
     },
     data() {
       return {
-        opacityPercent: Math.round((this.layer?.params?.opacity ?? 1) * 100),
+        opacityPercent: Math.round((this.layer?.opacity ?? 1) * 100),
       };
     },
     computed: {
@@ -47,7 +50,7 @@
       },
     },
     watch: {
-      "layer.params.opacity": {
+      "layer.opacity": {
         handler(nextOpacity: number) {
           const nextPercent = Math.round((nextOpacity ?? 1) * 100);
           if (nextPercent !== this.opacityPercent) {
