@@ -4,10 +4,10 @@
     :class="{ 'is-active': isLoading }"
     data-text="資料載入中"
   ></div>
-  <main style="display: flex">
-    <div class="main__map_container" id="mapContainer" ref="mapContainer"></div>
-    <div class="main__control_panel">
-      <div class="h1">Control Panel</div>
+  <main class="container">
+    <div class="map_container" ref="mapEl"></div>
+    <div class="control_panel">
+      <div class="h1">圖層控制</div>
       <div v-for="layer in uiLayers" :key="layer.id">
         <layer-item :layer="layer" @opacity-change="rangeChange" />
       </div>
@@ -17,11 +17,15 @@
 
 <script lang="ts">
   import { defineComponent } from "vue";
-  import L, { type Layer } from "leaflet";
+  import L from "leaflet";
   import "leaflet/dist/leaflet.css";
   import "leaflet-kml";
   import "leaflet.glify";
   import LayerItem from "./components/LayerItem.vue";
+
+  // ===== types =====
+  import type { Layer, LayerGroup, Map } from "leaflet";
+  import type { GeoJSON } from "geojson";
   import type {
     LayerOpacityChangePayload,
     ManagedLayerMeta,
@@ -50,13 +54,12 @@
     data() {
       return {
         // maxDN: 0,
-        mapInstance: null as L.Map | null,
-        managedLayerGroup: null as L.LayerGroup | null,
+        mapInstance: null as Map | null,
+        managedLayerGroup: null as LayerGroup | null,
         uiLayers: [] as ManagedLayerViewModel[],
         opacity1: "100",
         geoJsonData: {} as GeoJsonData,
         isLoading: false,
-        kmlLayerCctv: {} as Layer,
       };
     },
     methods: {
@@ -309,7 +312,7 @@
         const vm = this;
         const wmsOption = {
           version: "1.3.0",
-          layers: 1,
+          layers: "1",
           transparent: true,
           bgcolor: "0xFFFFFF",
           format: "image/png",
@@ -323,7 +326,7 @@
         vm.addManagedLayer(mineLayer, {
           name: wmsOption.layerName,
           type: "TileLayer",
-          params: { opacity: wmsOption.opacity },
+          params: { opacity: wmsOption.opacity, subType: "WMS" },
         });
         // console.log(mineLayer);
       },
@@ -336,7 +339,7 @@
         for (let i = 0; i < 6; i++) {
           const wmsOption = {
             version: "1.3.0",
-            layers: i,
+            layers: i.toString(),
             transparent: true,
             bgcolor: "0xFFFFFF",
             format: "image/png",
@@ -351,8 +354,7 @@
     },
     async mounted() {
       const vm = this;
-      const mapDom = vm.$refs.mapContainer as HTMLElement;
-      const mapInstance = L.map(mapDom, {
+      const mapInstance = L.map(vm.$refs.mapEl, {
         center: [23.58, 120.58],
         zoom: 9,
       });
@@ -384,23 +386,21 @@
       vm.displayIntersectionKml();
       vm.displayCctvKml();
     },
-    created() {},
   });
 </script>
 
 <style scoped>
-  .main__map_container {
-    width: 70%;
-    height: 100vh;
-  }
-  .main__control_panel {
-    width: 30%;
-    height: 100vh;
-  }
+  .container {
+    display: flex;
 
-  .main__layer_section {
-    border: 2px solid #000;
-    padding: 0.25rem;
-    margin: 0.25rem;
+    .map_container {
+      width: 70%;
+      height: 100vh;
+    }
+
+    .control_panel {
+      width: 30%;
+      height: 100vh;
+    }
   }
 </style>

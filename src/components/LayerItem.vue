@@ -1,5 +1,5 @@
 ﻿<template>
-  <div class="main__layer_section">
+  <div class="layer_section">
     <div class="layer-title">{{ layer.name }}</div>
     <div class="layer-meta">
       {{ layer.type }}<span v-if="layer.params?.subType"> / {{ layer.params?.subType }}</span>
@@ -68,10 +68,10 @@
 </script>
 
 <style scoped>
-  .main__layer_section {
+  .layer_section {
     border: 2px solid #000;
-    padding: 0.5rem;
-    margin: 0.5rem;
+    padding: 0.25rem;
+    margin: 0.25rem;
   }
 
   .layer-title {
